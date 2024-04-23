@@ -89,25 +89,12 @@ body {
     width: 385px;
 }
 
-.team_photo_btn {
-    position: relative;
-    top: -385px;
-    width: 50px;
-    z-index: 1;
-    background-color: #7065f0;
-    border-radius: 20px;
-    padding-left: 10px;
-    padding-right: 10px;
-    padding-top: 5px;
-    padding-bottom: 5px;
-
-}
 
 .team_photo_btn .image-btn {
     color: #fff
 }
 
-.team_text_below h2 {
+.team_text h2 {
     position: relative;
     top: -30px;
     left: 10px;
@@ -115,10 +102,17 @@ body {
     font-weight: bold;
     color: #000;
 }
+.team_photo_text p {
+    position: relative;
+    top: 30px;
+    left: 10px;
+    color: #7065f0;
+    font-weight: 500;
+}
 
 .team_icons {
     position: relative;
-    top: -50px;
+    top: -40px;
     left: -5px;
     font-size: 18px;
     text-align: right;
