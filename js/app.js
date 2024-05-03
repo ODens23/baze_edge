@@ -6,30 +6,6 @@ $(window).on('load', function () {
     $('#preloader').delay(350).fadeOut();
 });
 
-/* ======================================
-|   |   |   Home screen
-========================================= */
-$(function () {
-    $("#home-screens").owlCarousel({
-        items: 1,
-        autoplay: true,
-        smartSpeed: 300,
-        loop: true,
-        autoplayHoverPause: true,
-        nav: false,
-        responsive: {
-            //breakpoint from 0 up
-            0: {
-                items: 1
-            },
-            //breakpoint from 480 up
-            480: {
-                items: 1
-            }
-        }
-    });
-});
-
 
 /* ======================================
 |   |   |   Stats

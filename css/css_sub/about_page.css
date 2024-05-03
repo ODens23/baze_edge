@@ -160,7 +160,7 @@ section {
 |  |  About text section and CEO
 ====================================*/
 #about_team {
-    height: 1500px;
+    height: 2700px;
 }
 
 #about_team_image .front {
@@ -205,15 +205,76 @@ section {
     font-weight: 600;
 }
 
-.about_team_btn {
-    position: relative;
-    top: -50px;
-    text-decoration: none;
+/*===============================
+|  |  Team photo, text and icons 
+================================*/
+.team {
+    padding-top: 80px;
 }
 
-.about_team_btn a {
-    text-decoration: none;
+.team h2 {
+    position: relative;
+    left: 12px;
+    padding-bottom: 40px;
 }
+
+.team h2 span {
+    color: #7065f0;
+}
+
+.team_photo {
+    position: relative;
+    top: -20px;
+    height: 440px;
+    -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+.team_photo img {
+    position: relative;
+    top: 5px;
+    height: 360px;
+    width: 385px;
+}
+
+.team_text h2 {
+    position: relative;
+    top: -40px;
+    left: 10px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #000;
+}
+.team_photo_text p {
+    position: relative;
+    top: 25px;
+    left: 10px;
+    color: #7065f0;
+    font-weight: 500;
+}
+
+.team_icons {
+    position: relative;
+    top: -64px;
+    left: -5px;
+    font-size: 17px;
+    text-align: right;
+}
+
+.team_icons .socials_icons {
+    padding-left: 6px;
+    padding-right: 6px;
+}
+
+
+
+
+
+
+
+
+
 
 
 /*=====================================

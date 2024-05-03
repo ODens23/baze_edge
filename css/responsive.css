@@ -7,7 +7,7 @@
 
 #mobile-nav-open-btn {
     font-size: 50px;
-    color: #f4c613;
+    color: #7065f0;
     cursor: pointer;
     z-index: 2;
     position: absolute;
@@ -32,7 +32,7 @@
     overflow-y: hidden;
 }
 #mobile-nav-close-btn {
-    font-family: "Raleway", serif;
+    font-family: "Plus Jakarta Sans", "Open Sans";
     font-size: 100px;
     color: #212226;
     font-weight: 400;
@@ -54,8 +54,8 @@
     margin-bottom: 20px;
 }
 #mobile-nav a {
-    font-family: "Raleway", serif;
-    font-size: 30px;
+    font-family: "Plus Jakarta Sans", "Open Sans";
+    font-size: 10px;
     color: #212226;
     font-weight: 400;
     text-transform: uppercase;
@@ -67,7 +67,7 @@
 #mobile-nav a:focus,
 #mobile-nav-close-btn:hover,
 #mobile-nav-close-btn:focus {
-    color: #f4c613;
+    color: #7065f0;
 }
 
 
@@ -79,117 +79,351 @@
 /* Large Device (Desktop and Laptop) */
 @media (min-width: 1200px) {
 
+    .navbar-nav {
+        position: relative;
+        left: -60px;
+    }
+
+    .home-screen h1 {
+        position: relative;
+        top: 550px;
+        left: 200px;
+        font-size: 55px;
+    }
+
+    .home-screen p {
+        position: relative;
+        top: 500px;
+        left: 200px;
+    }
+
+    /*Below is the "Get in touch section" at the navigation bar css*/
+    .get_touch_btn {
+        position: relative;
+        top: -38px;
+        left: 560px;
+        text-decoration: none;
+        z-index: 1;
+    }
+
+    .get_touch_btn a {
+        text-decoration: none;
+    }   
 }
+
 
 /* Medium Device (Landscape tablets and Medium Laptops) */
 @media (min-width: 992px) and (max-width: 1199px) {
 
-    /*All home navigation section*/
-    .all-navigation i {
-        font-size: 30px;
+    .navbar-brand img {
+        position: relative;
+        left: 20px;
+        top: -10px;
+        width: 100px;
+        height: auto;
+    }
+
+    .navbar-nav {
+        position: relative;
+        left: -20px;
+    }
+
+    .white-nav-top {
+    padding: 5px 0;
+    }
+
+    ul.navbar-nav > li > a {
+        font-size: 11px;
+    }
+
+    /*Below is the "Get in touch section" at the navigation bar css*/
+    .get_touch_btn {
+        position: relative;
+        top: -38px;
+        left: 530px;
+        text-decoration: none;
+    }
+
+    .get_touch_btn a {
+        text-decoration: none;
+        font-size: 11px;
+        padding: 12px;
+    }  
+
+    .home-screen h1 {
+        position: relative;
+        top: 500px;
+        left: 180px;
+        font-size: 40px;
+        line-height: 65px;
+    }
+
+    .home-screen p {
+        position: relative;
+        top: 420px;
+        left: 180px;
+        font-size: 14px;
     }
     
-    .all-navigation p {
-        font-size: 15px;
-        margin-top: 10px;
+    /*About Estate company*/
+    #about {
+    height: 700px;
     }
 
-    .left-section a {
-        height: 100px;
-        width: 150px;
-    }
-    
-    .centre-section a {
-        height: 100px;
-        width: 150px;
-    }
-    
-    .right-section a {
-        height: 100px;
-        width: 150px;
-    }
-
-    /* ======================================
-|   |   |   Live section
-========================================= */
-
-    #live .vertical-heading {
-    min-height: 100px;
-}
-
-    .live-text p {
-    font-size: 20px;
-    line-height: 30px;
-}
-
-    .live-member {
-    margin: 5px;
+    #about_image .front {
     position: relative;
-    height: 300px;
-    width: 400px;
-}
+    top: -400px;
+    width: 350px;
+    height: 364px;
+    left: 60px;
+    z-index: 1;
+    }
+    #about_image .back {
+    position: relative;
+    top: -10px;
+    width: 410px;
+    height: 414px;
+    left: 40px;
+    }
 
-    .vertical-heading h2 {
-    margin-left: 0px;
-}
+    #about_text {
+        position: relative;
+        top: -30px;
+    }
 
-    #live-members {
-    margin: 15px, 15px;
-    -webkit-box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.3);
-    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.3);
-    border-radius: 20px;
-}
+    #about_text h2 {
+    font-size: 40px;
+    }
+
+    #about_text p {
+    font-size: 14px;
+    padding-bottom: 0;
+    }
 
 
-    /*Services section - Left*/
-    .service {
-        margin: 15px 0;
+    /*Estate section*/
+
+    #estate {
+    height: 1500px;
+    }
+
+    #estate_header h2 {
+        position: relative;
+        left: -10px;
+        width: 762px;
+        height: 67px;
+        font-size: 40px;
+    }
+
+    #estate_header p {
+        position: relative;
+        left: -10px;
+        font-size: 14px;
+    }
+
+    .estate_header_btn a {
+    position: relative;
+    top: -60px;
+    left: 760px;
+    }
+
+    #estate_view_1 {
+        position: relative;
+        left: -120px;
+        width: 1180px;
+    }
+
+    /*Sold/Available button posiition for estate view 1*/
+    #view_1 .image_btn_one a,
+    #view_2 .image_btn_two a,
+    #view_3 .image_btn_three a {
+        position: relative;
+        top: -235px;
+        left: 10px;
+    }
+    /*Sold/Available for estate view 1 ends here*/
+
+    #estate_view_1 img {
+        height: 250px;
+        width: 370px;
+    }
+
+    #view_1 {
+        width: 370px;
+        height: 470px;
+    }
+    #view_2 {
+        width: 370px;
+        height: 470px;
+    }
+    #view_3 {
+        width: 370px;
+        height: 470px;
+    }
+    /*====================================
+    |  |  CSS that affect all section
+    =====================================*/
+    /*housing text for all estate*/
+    .housing_text_below p {
+        font-size: 15px;
+    }
+    /*button for all section*/
+    .view_btn a {
+    position: relative;
+    top: 12px;
+    left: 20px;
+    }
+    /*======ends here================*/
+
+    #estate_view_2 {
+        position: relative;
+        left: -120px;
+        width: 1180px;
+    }
+
+    /*Sold/Available button posiition for estate view 2*/
+    #view_4 .image_btn_four a,
+    #view_5 .image_btn_five a,
+    #view_6 .image_btn_six a {
+        position: relative;
+        top: -235px;
+        left: 10px;
+    }
+    /*Sold/Available for estate view 2 ends here*/
+
+    #estate_view_2 img {
+        height: 250px;
+        width: 370px;
+    }
+    #view_4 {
+        width: 370px;
+        height: 470px;
+    }
+    #view_5 {
+        width: 370px;
+        height: 470px;
+    }
+    #view_6 {
+        width: 370px;
+        height: 470px;
+    }
+
+    /*Stats*/
+    #stats .vertical-heading h2 {
+        font-size: 40px;
     }
     
-    .service .icon {
-        font-size: 35px;
-    }
-    
-    .service h5 {
-        font-size: 10px;
-    }
-    
-    .service h4 {
-        font-size: 18px;
-    }
-    
-    .service p {
-        font-size: 12px;
-        line-height: 15px;
-        margin: 0 0 5px;
+    #stats .vertical-heading p {
+        font-size: 14px;
     }
 
-    /*Servie 02 Responsive tab*/
-    #services-tabs .tab-bg {
-        padding: 26.5px 30px;
-        min-height: 100px;
-    }
-
-    #service-tab-2 p {
-        margin-bottom: 40px;
-    }
-
-    #service-tab-4 p {
-        margin-bottom: 40px;
+    /*Contact us from continental location*/
+    .location_text h2 {
+        position: relative;
+        left: 60px;
+        font-size: 40px;
     }
     
-    .service-tab p {
-        line-height: 20px;
-        margin-bottom: 20px;
-    }
-    
-    /*Contact section*/
-    .col-md-6 {
-        padding-right: 1px;
+    .location_text p {
+        position: relative;
+        left: 260px;
+        font-size: 14px;
     }
 
-    ul.office-details li {
-        font-size: 11.5px;
+    #location .location_image {
+        position: relative;
+        width: 1100px;
+        top: 250px;
+        left: -560px;
+    }
+
+    .location_tag .location_1 {
+        position: relative;
+        top: 340px;
+        left: 300px;
+        z-index: 1;
+    }
+    .location_tag .location_2 {
+        position: relative;
+        top: 400px;
+        left: 60px;
+        z-index: 1;
+    }
+    .location_tag .location_3 {
+        position: relative;
+        top: 400px;
+        left: 400px;
+        z-index: 1;
+    }
+    .location_tag .location_4 {
+        position: relative;
+        top: 450px;
+        left: 460px;
+        z-index: 1;
+    }
+    .location_tag .location_5 {
+        position: relative;
+        top: 500px;
+        left: 180px;
+        z-index: 1;
+    }
+    .location_tag .location_6 {
+        position: relative;
+        top: 580px;
+        left: 190px;
+        z-index: 1;
+    }
+    .location_tag .location_7 {
+        position: relative;
+        top: 560px;
+        left: -140px;
+        z-index: 1;
+    }
+
+    /*Contact*/
+    #contact {
+        height: 440px;
+    }
+
+    .contact_logo {
+        position: relative;
+        width: 170px;
+        top: -20px;
+        left: -80px;
+    }
+    
+    .office {
+        position: relative;
+        top: -20px;
+        left: -80px;
+        width: 1000px;
+    }
+
+    .qrcode img {
+        position: relative;
+        top: 70px;
+        left: 340px;
+        width: 180px;
+    }
+    
+    /*Footer*/
+    footer {
+        padding: 10px;
+    }
+
+    footer p {
+        position: relative;
+        top: 15px;
+        left: -80px;
+        font-size: 14px;
+    }
+    
+    .footer_icons {
+        position: relative;
+        top: -10px;
+        left: 20px;
+        font-size: 22px;
+        text-align: right;
     }
 }
 
