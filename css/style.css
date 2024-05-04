@@ -99,8 +99,6 @@ section {
     position: absolute;
     min-width: 100%;
     min-height: 100%;
-    background: url("../img/home_page/estate_home_screen_one.png") no-repeat;
-    background-size: cover;
 }
 
 #home-screens {
@@ -135,29 +133,6 @@ section {
     width: 835px;
     height: 64px;
 }
-
-/* ======================================
-|   |   |   Arrow down
-========================================= */
-#arrow-down {
-    position: absolute;
-    left: 50%;
-    bottom: 3%;
-    color: #fff;
-    font-size: 30px;
-    width: 32px;
-    height: 32px;
-    text-align: center;
-    margin-left: -16px;
-    z-index: 1;
-}
-
-#arrow-down:hover,
-#arrow-down:focus {
-    color: #fff;
-}
-
-
 
 /*===================================
 |  |  About Estate company
