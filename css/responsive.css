@@ -151,10 +151,10 @@ and (min-width : 321px) {
 
     .home-screen p {
         position: relative;
-        top: 480px;
+        top: 500px;
         left: 175px;
         font-size: 13px;
-        line-height: 20px;
+        line-height: 25px;
         width: 320px;
         text-align: justify;
     }
@@ -188,35 +188,37 @@ and (min-width : 321px) {
 
     #about_image .front {
         position: relative;
-        top: -185px;
-        left: 110px;
-        width: 170px;
-        height: 185px;
+        top: -285px;
+        left: 25px;
+        width: 270px;
+        height: 285px;
         z-index: 1;
     }
 
     #about_image .back {
         position: relative;
         top: 10px;
-        left: 85px;
-        width: 210px;
-        height: 214px;
+        left: 10px;
+        width: 310px;
+        height: 314px;
     }
 
     #about_text {
         position: relative;
-        top: -290px;
+        top: -400px;
+        width: 320px;
     }
 
     #about_text h2 {
         position: relative;
-        top: -180px;
-        font-size: 20px;
+        top: -270px;
+        font-size: 30px;
         line-height: 30px;
+        width: 350px;
     }
 
     #about_text p {
-        font-size: 12px;
+        font-size: 13px;
         padding-bottom: 0;
         line-height: 25px;
     }
