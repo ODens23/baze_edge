@@ -188,7 +188,7 @@ and (min-width : 321px) {
 
     #about_image .front {
         position: relative;
-        top: -285px;
+        top: -260px;
         left: 25px;
         width: 270px;
         height: 285px;
@@ -197,7 +197,7 @@ and (min-width : 321px) {
 
     #about_image .back {
         position: relative;
-        top: 10px;
+        top: 40px;
         left: 10px;
         width: 310px;
         height: 314px;
@@ -205,13 +205,13 @@ and (min-width : 321px) {
 
     #about_text {
         position: relative;
-        top: -400px;
+        top: -360px;
         width: 320px;
     }
 
     #about_text h2 {
         position: relative;
-        top: -270px;
+        top: -300px;
         font-size: 30px;
         line-height: 30px;
         width: 350px;
