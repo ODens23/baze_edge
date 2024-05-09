@@ -142,20 +142,20 @@ and (min-width : 321px) {
 
     .home-screen h1 {
         position: relative;
-        top: 540px;
+        top: 580px;
         left: 175px;
-        font-size: 25px;
-        line-height: 35px;
+        font-size: 30px;
+        line-height: 40px;
         width: 350px;
     }
 
     .home-screen p {
         position: relative;
-        top: 380px;
+        top: 480px;
         left: 175px;
-        font-size: 12px;
+        font-size: 13px;
         line-height: 20px;
-        width: 310px;
+        width: 320px;
         text-align: justify;
     }
 
