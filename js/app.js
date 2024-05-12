@@ -74,9 +74,6 @@ $(window).on('load', function() {
     $("#about_text h2").addClass("animated fadeInDown");
     $(".location_text span").addClass("animated fadeInDown");
     $("#home-text").addClass("animated zoomIn");
-    $(".left-section").addClass("animated zoomIn");
-    $(".centre-section").addClass("animated zoomIn");
-    $(".right-section").addClass("animated zoomIn");
     $("#arrow-down i").addClass("animated fadeInDown infinite");
 
 });

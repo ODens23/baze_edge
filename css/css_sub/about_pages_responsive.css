@@ -79,12 +79,10 @@
 /* Smartphones (landscape) ----------- */
 @media only screen 
 and (min-width : 321px) {
-
     /*Navigation bar*/
     .navbar-brand {
         padding: 10px 10px;
     }
-
     .navbar-brand img {
         position: relative;
         top: -5px;
@@ -137,28 +135,31 @@ and (min-width : 321px) {
     }
 
     #background_image{
-        background-image: url('../img/home_page/estate_home_screen_small.png');
+        background-image: url('/img/about_page_images/about_home_image_small.jpg');
         height: 100%;
         width: 100%;
     }
 
     .home-screen h1 {
         position: relative;
-        top: 580px;
-        left: 175px;
+        top: 30px;
+        left: 150px;
         font-size: 30px;
         line-height: 40px;
         width: 350px;
+        color: #000;
     }
 
     .home-screen p {
         position: relative;
-        top: 500px;
-        left: 175px;
+        top: -100px;
+        left: 150px;
         font-size: 13px;
+        font-weight: 600;
         line-height: 25px;
         width: 330px;
         text-align: justify;
+        color: #000 
     }
 
     /* ======================================
@@ -183,58 +184,174 @@ and (min-width : 321px) {
     }
     /*Arrow down ends here*/
 
-    /*About Estate company*/
-    #about {
-        height: 720px;
+    /*About company team*/
+    #about_team {
+        height: 4800px;
     }
 
-    #about_image .front {
+    #about_team_image .front {
         position: relative;
-        top: -260px;
-        left: 25px;
-        width: 270px;
+        top: -2070px;
+        left: -90px;
+        width: 380px;
         height: 285px;
         z-index: 1;
     }
 
-    #about_image .back {
-        position: relative;
-        top: 40px;
-        left: 10px;
+    #about_team_image .back {
+        visibility: hidden;
+        /* position: relative;
+        top: -1100px;
+        left: -10px;
         width: 310px;
-        height: 314px;
+        height: 314px; */
     }
 
-    #about_text {
+    #about_team_text {
         position: relative;
-        top: -380px;
+        top: 240px;
         width: 330px;
+        height: 1050px;
     }
 
-    #about_text h2 {
+    #about_team_text h2 {
         position: relative;
-        top: -290px;
+        top: -300px;
         font-size: 30px;
         line-height: 40px;
         width: 350px;
     }
 
-    #about_text p {
+    #about_team_text p {
         font-size: 13px;
         padding-bottom: 0;
         line-height: 23px;
     }
-
-    #about_text p span{
-        position: relative;
-        top: 20px;
+    
+    /* Team photo, text and icons */
+    .team {
+        padding-top: 80px;
     }
 
-    #about_text .about_btn a {
-        font-size: 11px;
+    .team h2 {
+        position: relative;
+        left: 12px;
+        padding-bottom: 40px;
+    }
+
+    .team_photo {
+        position: relative;
+        top: -20px;
+        left: 10px;
+        width: auto;
+        height: 380px;
+        -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        border-radius: 8px;
+        margin-bottom: 40px;
+    }
+
+    .team_photo img {
+        position: relative;
+        top: 5px;
+        height: 300px;
+        width: auto;
+    }
+
+    .team_text h2 {
+        position: relative;
+        top: -40px;
+        left: 10px;
+        font-size: 14px;
+        font-weight: bold;
+        color: #000;
+    }
+
+    .team_photo_text p {
+        position: relative;
+        top: 25px;
+        left: 10px;
+        font-size: 13px;
+        color: #7065f0;
+        font-weight: 500;
+    }
+
+    .team_icons {
+        position: relative;
+        top: -66px;
+        left: -10px;
+        font-size: 17px;
+        text-align: right;
+    }
+
+    .team_icons .socials_icons {
+        padding-left: 8px;
+        padding-right: 8px;
+    }
+    /*the below class was added to adjust mobile view for the second row following the following the 12 column rule*/
+    .second_row {
+        position: relative;
+        top: -80px;
     }
     
-        /*Estate section*/
+    /*Stats*/
+    #stats {
+        height: 850px;
+    }
+
+    #stats .content-box-md {
+        height: 850px;
+    }
+
+    #stats .first_stats {
+        height: 100px;
+        width: 260px;
+        top: -20px;
+        left: 40px;
+        padding: 20px;
+    }
+
+    #stats .second_stats {
+        height: 100px;
+        width: 260px;
+        left: 40px;
+        top: 80px;
+        padding: 20px;
+    }
+
+    #stats .third_stats {
+        height: 100px;
+        width: 260px;
+        left: 40px;
+        top: 180px;
+        padding: 20px;
+    }
+
+    #stats .vertical-heading h2 {
+        font-size: 30px;
+        line-height: 40px;
+        padding-bottom: 10px;
+    }
+    
+    #stats .vertical-heading p {
+        font-size: 13px;
+        line-height: 20px;
+    }
+
+    .stats-item i {
+        font-size: 25px;
+    }
+    
+    .stats-item h3 {
+        font-size: 25px;
+    }
+    
+    .stats-item p {
+        font-size: 12px;
+    }    
+
+    
+    /*Estate section*/
 
     #estate {
         height: 2100px;
@@ -360,61 +477,6 @@ and (min-width : 321px) {
         height: 460px;
     }
 
-    /*Stats*/
-    #stats {
-        height: 850px;
-    }
-
-    #stats .content-box-md {
-        height: 850px;
-    }
-
-    #stats .first_stats {
-        height: 100px;
-        width: 260px;
-        top: -20px;
-        left: 40px;
-        padding: 20px;
-    }
-
-    #stats .second_stats {
-        height: 100px;
-        width: 260px;
-        left: 40px;
-        top: 80px;
-        padding: 20px;
-    }
-
-    #stats .third_stats {
-        height: 100px;
-        width: 260px;
-        left: 40px;
-        top: 180px;
-        padding: 20px;
-    }
-
-    #stats .vertical-heading h2 {
-        font-size: 30px;
-        line-height: 40px;
-        padding-bottom: 10px;
-    }
-    
-    #stats .vertical-heading p {
-        font-size: 13px;
-        line-height: 20px;
-    }
-
-    .stats-item i {
-        font-size: 25px;
-    }
-    
-    .stats-item h3 {
-        font-size: 25px;
-    }
-    
-    .stats-item p {
-        font-size: 12px;
-    }    
 
     /*Contact us from continental location*/
     #location {
@@ -516,7 +578,7 @@ and (min-width : 321px) {
 /* Smartphones (portrait) ----------- */
 @media only screen 
 and (max-width : 320px) {
-
+  /* already done above */
 }
 
 /* iPads (portrait and landscape) ----------- */

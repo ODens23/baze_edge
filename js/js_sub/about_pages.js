@@ -84,6 +84,26 @@ $(function ()  {
     });
 }); 
 
+
+/* ======================================
+|   |   |   Animation
+========================================= */
+$(function () {
+    new WOW().init();
+});
+
+//home animation on page load
+$(window).on('load', function() {
+
+    $("#about_text h2").addClass("animated fadeInDown");
+    $(".location_text span").addClass("animated fadeInDown");
+    $("#home-text").addClass("animated zoomIn");
+    $("#arrow-down i").addClass("animated fadeInDown infinite");
+
+});
+
+
+
 /* ======================================
 |   |   |   Mobile Menu
 ========================================= */
@@ -100,7 +120,6 @@ $(function () {
     });
 
 });
-
 
 /*===========================
 DROP DOWN SERVICES SECTION
