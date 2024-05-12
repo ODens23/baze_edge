@@ -235,7 +235,7 @@ and (min-width : 321px) {
         /*Estate section*/
 
     #estate {
-        height: 2000px;
+        height: 2100px;
         margin-top: 100px;
     }
 
@@ -296,12 +296,12 @@ and (min-width : 321px) {
     }
     #view_2 {
         width: 320px;
-        height: 490px;
+        height: 520px;
         margin-bottom: 60px;
     }
     #view_3 {
         width: 320px;
-        height: 490px;
+        height: 520px;
         margin-bottom: 60px;
     }
     /*====================================
