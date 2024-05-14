@@ -140,19 +140,31 @@ and (min-width : 321px) {
         width: auto;
     }
 
+    #home .row {
+        position: relative;
+        top: -40px;
+    }
+    .home-screen {
+        position: relative;
+        top: -100px;
+        height: 400px;
+        padding-top: 50px;
+    }
+
     .home-screen h1 {
         position: relative;
-        top: -10px;
+        top: 10px;
         left: 150px;
         font-size: 30px;
         line-height: 40px;
         width: 350px;
         color: #fff;
+        z-index: -1;
     }
 
     .home-screen p {
         position: relative;
-        top: -160px;
+        top: -140px;
         left: 150px;
         font-size: 13px;
         font-weight: 600;
