@@ -142,24 +142,24 @@ and (min-width : 321px) {
 
     .home-screen h1 {
         position: relative;
-        top: 30px;
+        top: 10px;
         left: 150px;
         font-size: 30px;
         line-height: 40px;
         width: 350px;
-        color: #000;
+        color: #fff;
     }
 
     .home-screen p {
         position: relative;
-        top: -100px;
+        top: -140px;
         left: 150px;
         font-size: 13px;
         font-weight: 600;
         line-height: 25px;
         width: 330px;
         text-align: justify;
-        color: #000 
+        color: #fff 
     }
 
     /* ======================================
@@ -191,7 +191,7 @@ and (min-width : 321px) {
 
     #about_team_image .front {
         position: relative;
-        top: -2070px;
+        top: -1510px;
         left: -90px;
         width: 380px;
         height: 285px;
