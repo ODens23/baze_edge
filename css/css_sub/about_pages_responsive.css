@@ -137,7 +137,7 @@ and (min-width : 321px) {
     #background_image{
         background-image: url('/img/about_page_images/about_home_image_small.jpg');
         height: 100%;
-        width: 100%;
+        width: auto;
     }
 
     .home-screen h1 {
