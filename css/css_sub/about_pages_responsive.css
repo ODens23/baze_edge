@@ -142,7 +142,7 @@ and (min-width : 321px) {
 
     .home-screen h1 {
         position: relative;
-        top: 10px;
+        top: -10px;
         left: 150px;
         font-size: 30px;
         line-height: 40px;
@@ -152,7 +152,7 @@ and (min-width : 321px) {
 
     .home-screen p {
         position: relative;
-        top: -140px;
+        top: -160px;
         left: 150px;
         font-size: 13px;
         font-weight: 600;
