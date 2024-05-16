@@ -265,12 +265,20 @@ and (min-width : 321px) {
         position: relative;
         top: 10px;
         left: 340px;
-        width: 400px;
+        width: 330px;
         padding: 20px;
         -webkit-box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
         box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
         border-radius: 16px;
         border: 1px 0px 0px 0px;
+    }
+
+    .contact_form .row {
+        width: 310px;
+    }
+
+    .contact_form form textarea.form-control {
+        min-height: 160px;
     }
 
 
