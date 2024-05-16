@@ -206,23 +206,28 @@ and (min-width : 321px) {
     #quote .content-box-md {
         height: 500px;
     }
+    #quote .content-box-md {
+        height: 500px;
+        background: rgba(0, 0, 0, 0.5)
+    }
 
     #quote .vertical-heading h2 {
         position: relative;
-        top: -20px;
+        top: 10px;
         color: #fff;
         font-size: 30px;
         font-weight: 800;
         text-align: center;
         line-height: 50px;
+        font-family: Plus Jakarta Sans;
     }
     
     .vertical-heading p {
-        padding-top: 10px;
+        padding-top: 40px;
         color: #fff;
         text-align: center;
         font-size: 18px;
-        
+        font-family: Plus Jakarta Sans;
     }
 
     /*Contact and form section*/
@@ -258,13 +263,13 @@ and (min-width : 321px) {
         left: 310px;
         width: 330px;
         font-size: 13px;
-        text-align: center;
+        text-align: justify;
     }
 
     .contact_form {
         position: relative;
         top: 10px;
-        left: 340px;
+        left: 330px;
         width: 330px;
         padding: 20px;
         -webkit-box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
@@ -274,7 +279,7 @@ and (min-width : 321px) {
     }
 
     .contact_form .row {
-        width: 310px;
+        width: 320px;
     }
 
     .contact_form form textarea.form-control {
