@@ -123,6 +123,9 @@ and (min-width : 321px) {
     }
 
     /*Home section*/
+    #intouch {
+        height: 760px;
+    }
     #intouch_homepage h1 {
         position: relative;
         width: 1768px;
@@ -173,57 +176,7 @@ and (min-width : 321px) {
         text-decoration: none;
     }
 
-
-
-
-
-
-
-
-
-
-
-    #home {
-        height: 100%;
-        width: 100%;
-        margin-bottom: 100px;
-    }
-
-    #home .row {
-        position: relative;
-        top: -140px;
-    }
-    .home-screen {
-        position: relative;
-        top: -100px;
-        height: 400px;
-        padding-top: 50px;
-    }
-
-    .home-screen h1 {
-        position: relative;
-        top: 140px;
-        left: 150px;
-        font-size: 30px;
-        line-height: 40px;
-        width: 350px;
-        color: #fff;
-        z-index: -1;
-    }
-
-    .home-screen p {
-        position: relative;
-        top: -20px;
-        left: 150px;
-        font-size: 13px;
-        font-weight: 600;
-        line-height: 25px;
-        width: 330px;
-        text-align: justify;
-        color: #fff 
-    }
-
-    /* ======================================
+        /* ======================================
     |   |   |   Arrow down which displays only from this mobile view
     ========================================= */
     #arrow-down {
@@ -244,6 +197,90 @@ and (min-width : 321px) {
         color: #fff;
     }
     /*Arrow down ends here*/
+
+    /*Keeep "in touch" section*/
+    #quote {
+        height: 500px;
+    }
+
+    #quote .content-box-md {
+        height: 500px;
+    }
+
+    #quote .vertical-heading h2 {
+        position: relative;
+        top: -20px;
+        color: #fff;
+        font-size: 30px;
+        font-weight: 800;
+        text-align: center;
+        line-height: 50px;
+    }
+    
+    .vertical-heading p {
+        padding-top: 10px;
+        color: #fff;
+        text-align: center;
+        font-size: 18px;
+        
+    }
+
+    /*Contact and form section*/
+    #contact_form {
+        height: 740px;
+    }
+    
+    #contact_and_form img {
+        visibility: hidden;
+    }
+
+    #contact_and_form {
+        position: relative;
+        top: 40px;
+        left: -320px;
+        width: 330px;
+        height: 134px;
+    }
+
+    .contact_section h2 {
+        position: relative;
+        top: 20px;
+        left: 320px;
+        width: 330px;
+        font-family: Plus Jakarta Sans;
+        font-size: 30px;
+        line-height: 50px;
+    }
+
+    .contact_section p {
+        position: relative;
+        top: -10px;
+        left: 310px;
+        width: 330px;
+        font-size: 13px;
+        text-align: center;
+    }
+
+    .contact_form {
+        position: relative;
+        top: 10px;
+        left: 340px;
+        width: 400px;
+        padding: 20px;
+        -webkit-box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
+        box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
+        border-radius: 16px;
+        border: 1px 0px 0px 0px;
+    }
+
+
+
+
+
+
+
+
+
 
     /*About company team*/
     #about_team {
