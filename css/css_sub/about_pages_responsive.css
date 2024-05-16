@@ -142,7 +142,7 @@ and (min-width : 321px) {
 
     #home .row {
         position: relative;
-        top: -40px;
+        top: -140px;
     }
     .home-screen {
         position: relative;
@@ -153,7 +153,7 @@ and (min-width : 321px) {
 
     .home-screen h1 {
         position: relative;
-        top: 10px;
+        top: 140px;
         left: 150px;
         font-size: 30px;
         line-height: 40px;
@@ -164,7 +164,7 @@ and (min-width : 321px) {
 
     .home-screen p {
         position: relative;
-        top: -140px;
+        top: -20px;
         left: 150px;
         font-size: 13px;
         font-weight: 600;
@@ -254,8 +254,8 @@ and (min-width : 321px) {
     .team_photo {
         position: relative;
         top: -20px;
-        left: 10px;
-        width: auto;
+        left: 5px;
+        width: 300px;
         height: 380px;
         -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
         box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
