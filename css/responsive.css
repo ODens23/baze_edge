@@ -72,445 +72,2144 @@
 
 
 
+
+
 /*==========================================
 |   |   Bootstrap 3 Media Queries
 ============================================*/
+/*Extra large screen down to 4k*/
+@media (min-width: 2561px) {
+        /*background image*/
+        #background_image img {
+            width: 100%;
+        }
+}
+
+/*Large screens*/
+@media (max-width: 2560px) {
+        /*background image*/
+        #background_image img {
+            width: 100%;
+        }
+}
+
+/* Between Large Laptops and Laptops screens ----------- */
+@media (max-width : 1300px) {
+        /*Home page*/
+        #home {
+            height: 600px;
+        }
+
+
+        .home-screen h1 {
+            position: relative;
+            left: 160px;
+            width: 800px;
+            font-size: 50px;
+        }
+        .home-screen p {
+            position: relative;
+            left: 160px;
+            width: 800px;
+        }
+
+        /* ======================================
+        |  Arrow down which displays only from this mobile view
+        ========================================= */
+        #arrow-down {
+            visibility: hidden;
+        }
+        /*Arrow down ends here*/
+
+        /*Estate section*/
+        #estate_header h2 {
+            position: relative;
+            top: -30px;
+        }
+        #estate_header p {
+            position: relative;
+            top: -30px;
+        }
+        
+        #estate_view_1 {
+            position: relative;
+            top: -20px;
+            width: 1290px;
+        }
+    
+        /*Sold/Available button posiition for estate view 1*/
+        #view_1 .image_btn_one a,
+        #view_2 .image_btn_two a,
+        #view_3 .image_btn_three a {
+            position: relative;
+            top: -245px;
+            left: 10px;
+        }
+        /*Sold/Available for estate view 1 ends here*/
+    
+        #estate_view_1 img {
+            height: 260px;
+            width: 99%;
+        }
+    
+        #view_1 {
+            width: 100%;
+            height: 520px;
+            margin-bottom: 60px;
+        }
+        #view_2 {
+            width: 100%;
+            height: 520px;
+            margin-bottom: 60px;
+        }
+        #view_3 {
+            width: 100%;
+            height: 520px;
+            margin-bottom: 60px;
+        }
+        /*====================================
+        |  |  CSS that affect all section
+        =====================================*/
+        /*housing text for all estate*/
+        .housing_text_below h2 {
+            font-size: 25px;
+        }
+        .housing_text_below p {
+            font-size: 16px;
+        }
+        /*View button effect for all section and some for estate 1 section because of movement levels*/
+        .view_btn a {
+            position: relative;
+            top: 5px;
+            left: -5px;
+            padding: 8px 60px;
+        }
+
+        /*View button for estate 2 section because of movement levels*/
+        #estate_view_2 .view_btn a {
+            position: relative;
+            top: 60px;
+        }
+        /*======ends here================*/
+    
+        #estate_view_2 {
+            position: relative;
+            top: -20px;
+            width: 1290px;
+            
+        }
+    
+        /*Sold/Available button posiition for estate view 2*/
+        #view_4 .image_btn_four a,
+        #view_5 .image_btn_five a,
+        #view_6 .image_btn_six a {
+            position: relative;
+            top: -245px;
+            left: 10px;
+        }
+        /*Sold/Available for estate view 2 ends here*/
+    
+        #estate_view_2 img {
+            height: 260px;
+            width: 99%;
+        }
+        #view_4 {
+            width: 100%;
+            height: 520px;
+        }
+        #view_5 {
+            width: 100%;
+            height: 520px;
+        }
+        #view_6 {
+            width: 100%;
+            height: 520px;
+        }
+
+}
+
+/* Between screens ----------- */
+@media (min-width: 1200px) and (max-width: 1260px) {
+        /*Home section*/
+        .nav {
+            position: relative;
+            left: -60px;
+        }
+
+        .home-screen h1 {
+            left: 200px;
+            font-size: 45px;
+        }
+        .home-screen p {
+            top: 440px;
+            left: 200px;
+            width: 700px;
+        }
+
+        /* ======================================
+        |  Arrow down which displays only from this mobile view
+        ========================================= */
+        #arrow-down {
+            visibility: hidden;
+        }
+        /*Arrow down ends here*/
+
+        /*Estate section*/
+        #estate_header h2 {
+            position: relative;
+            top: -30px;
+        }
+        #estate_header p {
+            position: relative;
+            top: -30px;
+        }
+        
+            #estate_view_1 {
+            position: relative;
+            top: -20px;
+            left: -30px;
+            width: 1200px;
+        }
+    
+        /*Sold/Available button posiition for estate view 1*/
+        #view_1 .image_btn_one a,
+        #view_2 .image_btn_two a,
+        #view_3 .image_btn_three a {
+            position: relative;
+            top: -245px;
+            left: 10px;
+        }
+        /*Sold/Available for estate view 1 ends here*/
+    
+        #estate_view_1 img {
+            height: 260px;
+            width: 99%;
+        }
+    
+        #view_1 {
+            width: 100%;
+            height: 520px;
+            margin-bottom: 60px;
+        }
+        #view_2 {
+            width: 100%;
+            height: 520px;
+            margin-bottom: 60px;
+        }
+        #view_3 {
+            width: 100%;
+            height: 520px;
+            margin-bottom: 60px;
+        }
+        /*====================================
+        |  |  CSS that affect all section
+        =====================================*/
+        /*housing text for all estate*/
+        .housing_text_below h2 {
+            font-size: 25px;
+        }
+        .housing_text_below p {
+            font-size: 16px;
+        }
+        /*View button effect for all section and some for estate 1 section because of movement levels*/
+        .view_btn a {
+            position: relative;
+            top: 5px;
+            left: -5px;
+            padding: 8px 60px;
+        }
+
+        /*View button for estate 2 section because of movement levels*/
+        #estate_view_2 .view_btn a {
+            position: relative;
+            top: 60px;
+        }
+        /*======ends here================*/
+    
+        #estate_view_2 {
+            position: relative;
+            top: -40px;
+            left: -30px;
+            width: 1200px;
+        }
+    
+        /*Sold/Available button posiition for estate view 2*/
+        #view_4 .image_btn_four a,
+        #view_5 .image_btn_five a,
+        #view_6 .image_btn_six a {
+            position: relative;
+            top: -245px;
+            left: 10px;
+        }
+        /*Sold/Available for estate view 2 ends here*/
+    
+        #estate_view_2 img {
+            height: 260px;
+            width: 100%;
+        }
+        #view_4 {
+            width: 100%;
+            height: 520px;
+        }
+        #view_5 {
+            width: 100%;
+            height: 520px;
+        }
+        #view_6 {
+            width: 100%;
+            height: 520px;
+        }
+
+        /*Estate down button*/
+        .estate_header_btn a {
+            position: relative;
+            top: 50px;
+            left: 500px;
+        }
+
+        /*Contact*/
+        
+        .contact_logo {
+            position: relative;
+            width: 160px;
+            top: -20px;
+            left: -20px;
+        }
+    
+        .office {
+            top: -5px;
+            left: -20px;
+        }
+
+        .office-details {
+            font-size: 16px;
+            line-height: 35px;
+            width: 850px;
+            text-align: justify;
+        }
+        
+        /*Footer*/
+        footer {
+            padding: 5px;
+        }
+
+        footer p {
+            position: relative;
+            top: 15px;
+            left: -30px;
+            font-size: 16px;
+            
+        }
+
+        .footer_icons {
+            left:  -40px;
+        }
+} 
+
+/* Between screens ----------- */
+@media (min-width: 1100px) and (max-width: 1199px) {
+        /*Home section*/
+        .nav {
+            position: relative;
+            left: 5px;
+        }
+
+        .home-screen h1 {
+            left: 120px;
+            font-size: 45px;
+        }
+        .home-screen p {
+            top: 440px;
+            left: 120px;
+            width: 700px;
+        }
+
+        /* ======================================
+        |  Arrow down which displays only from this mobile view
+        ========================================= */
+        #arrow-down {
+            visibility: hidden;
+        }
+        /*Arrow down ends here*/
+
+        /*About Estate company*/
+        #about {
+            margin-top: -50px;
+        }
+        #about_image .front {
+            position: relative;
+            top: -500px;
+            left: -30px;
+            width: 450px;
+            z-index: 1;
+        }
+
+        #about_image .back {
+            position: relative;
+            top: -10px;
+            left: -80px;
+            width: 540px;
+        }
+
+        #about_text h2 {
+            font-size: 41px;
+        }
+
+
+        /*Estate section*/
+        #estate_header h2 {
+            left: -60px;
+        }
+        #estate_header p {
+            position: relative;
+            top: -30px;
+            left: -60px;
+        }
+        
+        #estate_view_1 {
+            position: relative;
+            top: -20px;
+            width: 1100px;
+        }
+    
+        /*Sold/Available button posiition for estate view 1*/
+        #view_1 .image_btn_one a,
+        #view_2 .image_btn_two a,
+        #view_3 .image_btn_three a {
+            position: relative;
+            top: -245px;
+            left: 10px;
+        }
+        /*Sold/Available for estate view 1 ends here*/
+    
+        #estate_view_1 img {
+            height: 260px;
+            width: 99%;
+        }
+    
+        #view_1 {
+            width: 100%;
+            height: 520px;
+            margin-bottom: 60px;
+        }
+        #view_2 {
+            width: 100%;
+            height: 520px;
+            margin-bottom: 60px;
+        }
+        #view_3 {
+            width: 100%;
+            height: 520px;
+            margin-bottom: 60px;
+        }
+        /*====================================
+        |  |  CSS that affect all section
+        =====================================*/
+        /*housing text for all estate*/
+        .housing_text_below h2 {
+            font-size: 24px;
+        }
+        .housing_text_below p {
+            font-size: 15px;
+        }
+        /*View button effect for all section and some for estate 1 section because of movement levels*/
+        .view_btn a {
+            position: relative;
+            top: 5px;
+            left: -5px;
+            padding: 8px 60px;
+        }
+
+        /*View button for estate 2 section because of movement levels*/
+        #estate_view_2 .view_btn a {
+            position: relative;
+            top: 60px;
+        }
+        /*======ends here================*/
+    
+        #estate_view_2 {
+            position: relative;
+            top: -40px;
+            width: 1100px;
+        }
+    
+        /*Sold/Available button posiition for estate view 2*/
+        #view_4 .image_btn_four a,
+        #view_5 .image_btn_five a,
+        #view_6 .image_btn_six a {
+            position: relative;
+            top: -245px;
+            left: 10px;
+        }
+        /*Sold/Available for estate view 2 ends here*/
+    
+        #estate_view_2 img {
+            height: 260px;
+            width: 100%;
+        }
+        #view_4 {
+            width: 100%;
+            height: 520px;
+        }
+        #view_5 {
+            width: 100%;
+            height: 520px;
+        }
+        #view_6 {
+            width: 100%;
+            height: 520px;
+        }
+
+        /*Estate down button*/
+        .estate_header_btn a {
+            position: relative;
+            top: 50px;
+            left: 480px;
+        }
+
+        /*Contact us from continental location*/
+        .location_text h2 {
+            left: 70px;
+        }
+        
+        .location_text p {
+            left: 180px;
+            width: 600px;
+        }
+
+        /*Contact*/
+        
+        .contact_logo {
+            position: relative;
+            width: 160px;
+            top: -20px;
+            left: -80px;
+        }
+    
+        .office {
+            top: -5px;
+            left: -70px;
+        }
+
+        .office-details {
+            font-size: 16px;
+            line-height: 35px;
+            width: 850px;
+            text-align: justify;
+        }
+
+        .qrcode img {
+            left: 340px;
+        }
+        
+        /*Footer*/
+        footer {
+            padding: 5px;
+        }
+
+        footer p {
+            position: relative;
+            top: 15px;
+            left: -80px;
+            font-size: 16px;
+            
+        }
+
+        .footer_icons {
+            left:  10px;
+        }
+} 
+
+/* Between screens ----------- */
+@media (min-width: 1024px) and (max-width: 1099px) {
+        /*Home section*/
+        .nav {
+            position: relative;
+            left: -30px;
+        }
+
+        .home-screen h1 {
+            left: 140px;
+            font-size: 40px;
+            width: 700px;
+        }
+        .home-screen p {
+            top: 420px;
+            left: 140px;
+            width: 700px;
+        }
+
+        /* ======================================
+        |  Arrow down which displays only from this mobile view
+        ========================================= */
+        #arrow-down {
+            visibility: hidden;
+        }
+        /*Arrow down ends here*/
+
+        /*About Estate company*/
+        #about {
+            margin-top: -50px;
+        }
+        #about_image .front {
+            position: relative;
+            top: -500px;
+            left: -30px;
+            width: 450px;
+            z-index: 1;
+        }
+
+        #about_image .back {
+            position: relative;
+            top: -10px;
+            left: -80px;
+            width: 540px;
+        }
+
+        #about_text h2 {
+            font-size: 41px;
+        }
+
+
+        /*Estate section*/
+        #estate_header h2 {
+            left: -40px;
+            font-size: 41px;
+        }
+        #estate_header p {
+            position: relative;
+            top: -30px;
+            left: -40px;
+            font-size: 15px;
+        }
+        
+        #estate_view_1 {
+            position: relative;
+            top: -20px;
+            left: -50px;
+            width: 1024px;
+        }
+    
+        /*Sold/Available button posiition for estate view 1*/
+        #view_1 .image_btn_one a,
+        #view_2 .image_btn_two a,
+        #view_3 .image_btn_three a {
+            position: relative;
+            top: -245px;
+            left: 10px;
+        }
+        /*Sold/Available for estate view 1 ends here*/
+    
+        #estate_view_1 img {
+            height: 260px;
+            width: 99%;
+        }
+    
+        #view_1 {
+            width: 100%;
+            height: 520px;
+            margin-bottom: 60px;
+        }
+        #view_2 {
+            width: 100%;
+            height: 520px;
+            margin-bottom: 60px;
+        }
+        #view_3 {
+            width: 100%;
+            height: 520px;
+            margin-bottom: 60px;
+        }
+        /*====================================
+        |  |  CSS that affect all section
+        =====================================*/
+        /*housing text for all estate*/
+        .housing_text_below h2 {
+            font-size: 24px;
+        }
+        .housing_text_below p {
+            font-size: 15px;
+        }
+        /*View button effect for all section and some for estate 1 section because of movement levels*/
+        .view_btn a {
+            position: relative;
+            top: 5px;
+            left: -5px;
+            padding: 8px 60px;
+        }
+
+        /*View button for estate 2 section because of movement levels*/
+        #estate_view_2 .view_btn a {
+            position: relative;
+            top: 60px;
+        }
+        /*======ends here================*/
+    
+        #estate_view_2 {
+            position: relative;
+            top: -40px;
+            left: -50px;
+            width: 1024px;
+        }
+    
+        /*Sold/Available button posiition for estate view 2*/
+        #view_4 .image_btn_four a,
+        #view_5 .image_btn_five a,
+        #view_6 .image_btn_six a {
+            position: relative;
+            top: -245px;
+            left: 10px;
+        }
+        /*Sold/Available for estate view 2 ends here*/
+    
+        #estate_view_2 img {
+            height: 260px;
+            width: 100%;
+        }
+        #view_4 {
+            width: 100%;
+            height: 520px;
+        }
+        #view_5 {
+            width: 100%;
+            height: 520px;
+        }
+        #view_6 {
+            width: 100%;
+            height: 520px;
+        }
+
+        /*Estate down button*/
+        .estate_header_btn a {
+            position: relative;
+            top: 50px;
+            left: 440px;
+        }
+
+        /*Contact us from continental location*/
+    
+        
+        .location_text h2 {
+            left: 70px;
+        }
+        
+        .location_text p {
+            left: 190px;
+            width: 600px;
+        }
+
+        /*Contact*/
+        
+        .contact_logo {
+            position: relative;
+            width: 160px;
+            top: -20px;
+            left: -40px;
+        }
+    
+        .office {
+            top: -5px;
+            left: -30px;
+        }
+
+        .office-details {
+            font-size: 16px;
+            line-height: 35px;
+            width: 850px;
+            text-align: justify;
+        }
+
+        .qrcode img {
+            left: 300px;
+        }
+        
+        /*Footer*/
+        footer {
+            padding: 5px;
+        }
+
+        footer p {
+            position: relative;
+            top: 15px;
+            left: -50px;
+            font-size: 16px;
+            
+        }
+
+        .footer_icons {
+            left:  -30px;
+        }
+} 
+
+
+/* Between screens ----------- */
+@media (min-width: 992px) and (max-width: 1023px) {
+        /*Home section*/
+        .nav {
+            position: relative;
+            left: -50px;
+            padding: -5px 0;
+        }
+
+        ul.navbar-nav > li > a {
+            font-size: 11px;
+        }
+
+        .get_touch_btn a {
+            left: 530px;
+        }   
+        
+        .navbar-brand img {
+            width: 100px;
+            top: -5px;
+        }
+
+        .home-screen h1 {
+            left: 180px;
+            font-size: 35px;
+            width: 640px;
+        }
+        .home-screen p {
+            top: 420px;
+            left: 180px;
+            width: 620px;
+            font-size: 15px;
+        }
+
+        /* ======================================
+        |  Arrow down which displays only from this mobile view
+        ========================================= */
+        #arrow-down {
+            visibility: hidden;
+        }
+        /*Arrow down ends here*/
+
+        /*About Estate company*/
+        #about {
+            margin-top: -90px;
+        }
+        #about_image .front {
+            position: relative;
+            top: -490px;
+            left: 20px;
+            width: 430px;
+            z-index: 1;
+        }
+
+        #about_image .back {
+            position: relative;
+            top: -10px;
+            left: -20px;
+            width: 520px;
+        }
+
+        #about_text h2 {
+            font-size: 35px;
+            line-height: 50px;
+        }
+
+        #about_text p {
+            font-size: 15px;
+        }
+
+        #about_text .about_btn a {
+            font-size: 11px;
+        }
+
+        /*Estate section*/
+        #estate_header h2 {
+            left: -5px;
+            font-size: 35px;
+        }
+        #estate_header p {
+            position: relative;
+            top: -30px;
+            left: -5px;
+            font-size: 15px;
+        }
+        
+        #estate_view_1 {
+            position: relative;
+            top: -20px;
+            left: -30px;
+            width: 992px;
+        }
+
+        /*Sold/Available button posiition for estate view 1*/
+        #view_1 .image_btn_one a,
+        #view_2 .image_btn_two a,
+        #view_3 .image_btn_three a {
+            position: relative;
+            top: -245px;
+            left: 10px;
+        }
+        /*Sold/Available for estate view 1 ends here*/
+
+        #estate_view_1 img {
+            height: 260px;
+            width: 99%;
+        }
+
+        #view_1 {
+            width: 100%;
+            height: 520px;
+            margin-bottom: 60px;
+        }
+        #view_2 {
+            width: 100%;
+            height: 520px;
+            margin-bottom: 60px;
+        }
+        #view_3 {
+            width: 100%;
+            height: 520px;
+            margin-bottom: 60px;
+        }
+        /*====================================
+        |  |  CSS that affect all section
+        =====================================*/
+        /*housing text for all estate*/
+        .housing_text_below h2 {
+            font-size: 20px;
+        }
+        .housing_text_below p {
+            font-size: 15px;
+        }
+        /*View button effect for all section and some for estate 1 section because of movement levels*/
+        .view_btn a {
+            position: relative;
+            top: 5px;
+            left: -5px;
+            padding: 8px 60px;
+        }
+
+        /*View button for estate 2 section because of movement levels*/
+        #estate_view_2 .view_btn a {
+            position: relative;
+            top: 60px;
+        }
+        /*======ends here================*/
+
+        #estate_view_2 {
+            position: relative;
+            top: -50px;
+            left: -30px;
+            width: 992px;
+        }
+
+        /*Sold/Available button posiition for estate view 2*/
+        #view_4 .image_btn_four a,
+        #view_5 .image_btn_five a,
+        #view_6 .image_btn_six a {
+            position: relative;
+            top: -245px;
+            left: 10px;
+        }
+        /*Sold/Available for estate view 2 ends here*/
+
+        #estate_view_2 img {
+            height: 260px;
+            width: 100%;
+        }
+        #view_4 {
+            width: 100%;
+            height: 520px;
+        }
+        #view_5 {
+            width: 100%;
+            height: 520px;
+        }
+        #view_6 {
+            width: 100%;
+            height: 520px;
+        }
+
+        /*Estate down button*/
+        .estate_header_btn a {
+            position: relative;
+            top: 50px;
+            left: 420px;
+        }
+
+        /*Stats*/
+        #stats .vertical-heading h2 {
+            font-size: 35px;
+            /* line-height: 40px;
+            padding-bottom: 10px; */
+        }
+        
+        #stats .vertical-heading p {
+            font-size: 15px;
+            /* line-height: 20px; */
+        }
+
+        .stats-item i {
+            font-size: 35px;
+        }
+        
+        .stats-item h3 {
+            font-size: 35px;
+        }
+        
+        .stats-item p {
+            font-size: 15px;
+        }    
+
+        /*Contact us from continental location*/
+        .location_text h2 {
+            font-size: 35px;
+            line-height: 60px;
+            left: 70px;
+        }
+
+        .location_text p {
+            top: -20px;
+            font-size: 15px;
+            left: 190px;
+            width: 580px;
+        }
+
+        /*Contact*/
+        
+        .contact_logo {
+            position: relative;
+            width: 150px;
+            top: -10px;
+            left: -20px;
+        }
+
+        .office {
+            top: 10px;
+            left: -10px;
+        }
+
+        .office-details {
+            font-size: 15px;
+            line-height: 33px;
+            width: 850px;
+            text-align: justify;
+        }
+
+        .qrcode img {
+            left: 300px;
+            width: 180px;
+        }
+        
+        /*Footer*/
+        footer {
+            padding: 5px;
+        }
+
+        footer p {
+            position: relative;
+            top: 15px;
+            left: -20px;
+            font-size: 15px;
+            
+        }
+
+        .footer_icons {
+            left:  -60px;
+            font-size: 20px;
+        }
+} 
+
+/* Between is for close to tablets ----------- */
+@media (min-width: 846px) and (max-width: 991px) {
+        /*Home section*/
+        .nav {
+            position: relative;
+            left: 5px;
+            padding: -10px 0;
+        }
+
+        ul.navbar-nav > li > a {
+            font-size: 10px;
+        }
+
+        .get_touch_btn a {
+            left: 500px;
+            font-size: 10px;
+        }   
+        
+        .navbar-brand img {
+            width: 100px;
+            top: -5px;
+        }
+
+        .home-screen h1 {
+            top: 490px;
+            left: 130px;
+            font-size: 35px;
+            width: 500px;
+            line-height: 55px;
+        }
+        .home-screen p {
+            top: 390px;
+            left: 130px;
+            width: 500px;
+            font-size: 14px;
+            text-align: justify;
+        }
+
+        /* ======================================
+        |  Arrow down which displays only from this mobile view
+        ========================================= */
+        #arrow-down {
+            visibility: hidden;
+        }
+        /*Arrow down ends here*/
+
+        /*About Estate company*/
+        #about {
+            margin-top: -300px;
+        }
+        #about_image .front {
+            position: relative;
+            top: -460px;
+            left: -10px;
+            width: 400px;
+            z-index: 1;
+        }
+
+        #about_image .back {
+            position: relative;
+            top: -10px;
+            left: -60px;
+            width: 490px;
+        }
+
+        #about_text {
+            position: relative;
+            top: -860px;
+            left: 440px;
+            width: 350px;
+        }
+
+        #about_text h2 {
+            font-size: 30px;
+            line-height: 40px;
+        }
+
+        #about_text p {
+            font-size: 14px;
+            line-height: 25px;
+        }
+
+        #about_text .about_btn a {
+            font-size: 10px;
+        }
+
+        /*Estate section*/
+        #estate {
+            height: 2100px;
+            margin-top: -100px;
+        }
+
+        #estate_header h2 {
+            left: -50px;
+            font-size: 30px;
+        }
+        #estate_header p {
+            position: relative;
+            top: -50px;
+            left: -50px;
+            font-size: 14px;
+        }
+        
+        #estate_view_1 {
+            position: relative;
+            top: -20px;
+            left: -70px;
+            width: 400px;
+        }
+
+        /*Sold/Available button posiition for estate view 1*/
+        #view_1 .image_btn_one a,
+        #view_2 .image_btn_two a,
+        #view_3 .image_btn_three a {
+            position: relative;
+            top: -245px;
+            left: 10px;
+        }
+        /*Sold/Available for estate view 1 ends here*/
+
+        #estate_view_1 img {
+            height: 260px;
+            width: 99%;
+        }
+
+        #view_1 {
+            width: 100%;
+            height: 520px;
+            margin-bottom: 60px;
+        }
+        #view_2 {
+            position: relative;
+            top: -580px;
+            left: 450px;
+            width: 100%;
+            height: 520px;
+            margin-bottom: 60px;
+        }
+        #view_3 {
+            position: relative;
+            top: -580px;
+            width: 100%;
+            height: 520px;
+            margin-bottom: 60px;
+        }
+        /*====================================
+        |  |  CSS that affect all section
+        =====================================*/
+        /*housing text for all estate*/
+        .housing_text_below h2 {
+            font-size: 20px;
+        }
+        .housing_text_below p {
+            font-size: 14px;
+        }
+        /*View button effect for all section and some for estate 1 section because of movement levels*/
+        .view_btn a {
+            position: relative;
+            top: 5px;
+            left: -5px;
+            padding: 8px 60px;
+        }
+
+        /*View button for estate 2 section because of movement levels*/
+        #estate_view_2 .view_btn a {
+            position: relative;
+            top: 60px;
+        }
+        /*======ends here================*/
+
+        #estate_view_2 {
+            position: relative;
+            top: -80px;
+            left: -70px;
+            width: 400px;
+        }
+
+        /*Sold/Available button posiition for estate view 2*/
+        #view_4 .image_btn_four a,
+        #view_5 .image_btn_five a,
+        #view_6 .image_btn_six a {
+            position: relative;
+            top: -245px;
+            left: 10px;
+        }
+        /*Sold/Available for estate view 2 ends here*/
+
+        #estate_view_2 img {
+            height: 260px;
+            width: 100%;
+        }
+        #view_4 {
+            position: relative;
+            left: 450px;
+            width: 100%;
+            height: 520px;
+        }
+        #view_5 {
+            position: relative;
+            top: 60px;
+            width: 100%;
+            height: 520px;
+        }
+        #view_6 {
+            position: relative;
+            top: -460px;
+            left: 450px;
+            width: 100%;
+            height: 520px;
+        }
+
+        /*Estate down button*/
+        .estate_header_btn a {
+            position: relative;
+            top: 450px;
+            left: 360px;
+        }
+
+        /*Stats*/
+        #stats .first_stats {
+            height: 100px;
+            width: 280px;
+            left: -40px;
+        }
+    
+        #stats .second_stats {
+            height: 100px;
+            width: 280px;
+            left: -30px;
+        }
+    
+        #stats .third_stats {
+            height: 100px;
+            width: 260px;
+            left: 540px;
+            top: -100px;
+        }
+
+        #stats .vertical-heading h2 {
+            font-size: 30px;
+
+        }
+        
+        #stats .vertical-heading p {
+            font-size: 14px;
+        }
+
+        .stats-item i {
+            font-size: 35px;
+        }
+        
+        .stats-item h3 {
+            font-size: 30px;
+        }
+        
+        .stats-item p {
+            font-size: 14px;
+        }    
+
+        /*Contact us from continental location*/
+        #location {
+            height: 900px;
+        }
+
+        .location_text h2 {
+            font-size: 30px;
+            line-height: 60px;
+            left: -30px;
+        }
+
+        .location_text p {
+            top: -20px;
+            font-size: 14px;
+            left: 110px;
+            width: 580px;
+        }
+
+        #location .location_image {
+            position: relative;
+            width: 1300px;
+            top: -20px;
+            left: -150px;
+        }
+
+        /*Contact*/
+        
+        .contact_logo {
+            position: relative;
+            width: 150px;
+            top: -10px;
+            left: -60px;
+        }
+
+        .office {
+            top: 10px;
+            left: -60px;
+        }
+
+        .office-details {
+            font-size: 14px;
+            line-height: 33px;
+            width: 550px;
+            text-align: justify;
+        }
+        
+        /*Footer*/
+        footer {
+            padding: 5px;
+        }
+
+        footer p {
+            position: relative;
+            top: 14px;
+            left: -60px;
+            font-size: 15px;
+            
+        }
+
+        .footer_icons {
+            left:  50px;
+            font-size: 20px;
+        }
+
+} 
+
+/* Between is for close to tablets ----------- */
+@media (min-width: 768px) and (max-width: 845px) {
+        /*Home section*/
+        .nav {
+            position: relative;
+            left: -30px;
+            padding: -10px 0;
+        }
+
+        .navbar {
+            padding: 5px 0;
+        }
+
+        ul.navbar-nav > li > a {
+            font-size: 9px;
+        }
+
+        .get_touch_btn a {
+            left: 465px;
+            font-size: 9px;
+            padding: 10px 25px;        
+        }   
+        
+        .navbar-brand img {
+            width: 90px;
+            top: -5px;
+        }
+
+        .home-screen h1 {
+            top: 490px;
+            left: 160px;
+            font-size: 35px;
+            width: 500px;
+            line-height: 55px;
+        }
+        .home-screen p {
+            top: 390px;
+            left: 160px;
+            width: 500px;
+            font-size: 14px;
+            text-align: justify;
+        }
+
+        /* ======================================
+        |  Arrow down which displays only from this mobile view
+        ========================================= */
+        #arrow-down {
+            visibility: hidden;
+        }
+        /*Arrow down ends here*/
+
+        /*About Estate company*/
+        #about {
+            margin-top: -300px;
+        }
+        #about_image .front {
+            position: relative;
+            top: -450px;
+            left: -10px;
+            width: 390px;
+            z-index: 1;
+        }
+
+        #about_image .back {
+            position: relative;
+            top: -10px;
+            left: -70px;
+            width: 480px;
+        }
+
+        #about_text {
+            position: relative;
+            top: -860px;
+            left: 400px;
+            width: 350px;
+        }
+
+        #about_text h2 {
+            font-size: 30px;
+            line-height: 40px;
+        }
+
+        #about_text p {
+            font-size: 14px;
+            line-height: 25px;
+        }
+
+        #about_text .about_btn a {
+            font-size: 9px;
+        }
+
+        /*Estate section*/
+        #estate {
+            height: 2100px;
+            margin-top: -100px;
+        }
+
+        #estate_header h2 {
+            left: -20px;
+            font-size: 30px;
+        }
+        #estate_header p {
+            position: relative;
+            top: -50px;
+            left: -20px;
+            font-size: 14px;
+        }
+        
+        #estate_view_1 {
+            position: relative;
+            top: -20px;
+            left: -30px;
+            width: 390px;
+        }
+
+        /*Sold/Available button posiition for estate view 1*/
+        #view_1 .image_btn_one a,
+        #view_2 .image_btn_two a,
+        #view_3 .image_btn_three a {
+            position: relative;
+            top: -245px;
+            left: 10px;
+        }
+        /*Sold/Available for estate view 1 ends here*/
+
+        #estate_view_1 img {
+            height: 260px;
+            width: 99%;
+        }
+
+        #view_1 {
+            width: 100%;
+            height: 520px;
+            margin-bottom: 60px;
+        }
+        #view_2 {
+            position: relative;
+            top: -580px;
+            left: 400px;
+            width: 100%;
+            height: 520px;
+            margin-bottom: 60px;
+        }
+        #view_3 {
+            position: relative;
+            top: -580px;
+            width: 100%;
+            height: 520px;
+            margin-bottom: 60px;
+        }
+        /*====================================
+        |  |  CSS that affect all section
+        =====================================*/
+        /*housing text for all estate*/
+        .housing_text_below h2 {
+            font-size: 20px;
+        }
+        .housing_text_below p {
+            font-size: 14px;
+        }
+        /*View button effect for all section and some for estate 1 section because of movement levels*/
+        .view_btn a {
+            position: relative;
+            top: 5px;
+            left: -5px;
+            padding: 8px 60px;
+            font-size: 9px;
+        }
+
+        /*View button for estate 2 section because of movement levels*/
+        #estate_view_2 .view_btn a {
+            position: relative;
+            top: 60px;
+        }
+        /*======ends here================*/
+
+        #estate_view_2 {
+            position: relative;
+            top: -80px;
+            left: -80px;
+            width: 390px;
+        }
+
+        /*Sold/Available button posiition for estate view 2*/
+        #view_4 .image_btn_four a,
+        #view_5 .image_btn_five a,
+        #view_6 .image_btn_six a {
+            position: relative;
+            top: -245px;
+            left: 10px;
+        }
+        /*Sold/Available for estate view 2 ends here*/
+
+        #estate_view_2 img {
+            height: 260px;
+            width: 100%;
+        }
+        #view_4 {
+            position: relative;
+            left: 450px;
+            width: 100%;
+            height: 520px;
+        }
+        #view_5 {
+            position: relative;
+            top: 60px;
+            left: 50px;
+            width: 100%;
+            height: 520px;
+        }
+        #view_6 {
+            position: relative;
+            top: -460px;
+            left: 450px;
+            width: 100%;
+            height: 520px;
+        }
+
+        /*Estate down button*/
+        .estate_header_btn a {
+            position: relative;
+            top: 450px;
+            left: 340px;
+        }
+
+        /*Stats*/
+        #stats .first_stats {
+            height: 100px;
+            width: 270px;
+            left: -20px;
+        }
+    
+        #stats .second_stats {
+            height: 100px;
+            width: 270px;
+            left: -30px;
+        }
+    
+        #stats .third_stats {
+            height: 100px;
+            width: 270px;
+            left: 500px;
+            top: -100px;
+        }
+
+        #stats .vertical-heading h2 {
+            font-size: 30px;
+
+        }
+        
+        #stats .vertical-heading p {
+            font-size: 14px;
+        }
+
+        .stats-item i {
+            font-size: 35px;
+        }
+        
+        .stats-item h3 {
+            font-size: 30px;
+        }
+        
+        .stats-item p {
+            font-size: 14px;
+        }    
+
+        /*Contact us from continental location*/
+        #location {
+            height: 900px;
+        }
+
+        .location_text h2 {
+            font-size: 30px;
+            line-height: 60px;
+            left: -30px;
+        }
+
+        .location_text p {
+            top: -20px;
+            font-size: 14px;
+            left: 110px;
+            width: 580px;
+        }
+
+        #location .location_image {
+            position: relative;
+            width: 1300px;
+            top: -20px;
+            left: -150px;
+        }
+
+        /*Contact*/
+        
+        .contact_logo {
+            position: relative;
+            width: 150px;
+            top: -10px;
+            left: -20px;
+        }
+
+        .office {
+            top: 10px;
+            left: -20px;
+        }
+
+        .office-details {
+            font-size: 14px;
+            line-height: 33px;
+            width: 550px;
+            text-align: justify;
+        }
+        
+        /*Footer*/
+        footer {
+            padding: 5px;
+        }
+
+        footer p {
+            position: relative;
+            top: 14px;
+            left: -20px;
+            font-size: 15px;
+            
+        }
+
+        .footer_icons {
+            left:  -20px;
+            font-size: 20px;
+        }
+
+} 
+
+
+
+/*BELOW ARE RESPONSIVE SMALLER PHONE SCREEN OF 321 AND 320*/
 
 /* Smartphones (landscape) ----------- */
 @media only screen 
-and (min-width : 321px) {
+and (max-width : 321px) {
 
-    /*Navigation bar*/
-    .navbar-brand {
-        padding: 10px 10px;
-    }
+        /*Navigation bar*/
+        .navbar-brand {
+            padding: 10px 10px;
+        }
 
-    .navbar-brand img {
-        position: relative;
-        top: -5px;
-        left: -15px;
-        width: 65px;
-        height: 40px;
-    }
+        .navbar-brand img {
+            position: relative;
+            top: -5px;
+            left: -15px;
+            width: 65px;
+            height: 40px;
+        }
 
-    /*Hide Navigation menu for smaller devices to allow Mobile menu drop down button*/
-    .navbar-nav {
-        display: none;
-    }
+        /*Hide Navigation menu for smaller devices to allow Mobile menu drop down button*/
+        .navbar-nav {
+            display: none;
+        }
 
-    /*Mobile Menu button display*/
-    #mobile-nav-open-btn {
-        display: block;
-        left: 300px;
-        top: 5px;
-        font-size: 25px;
-        color: #7065f0
-    }
+        /*Mobile Menu button display*/
+        #mobile-nav-open-btn {
+            display: block;
+            left: 300px;
+            top: 5px;
+            font-size: 25px;
+            color: #7065f0
+        }
 
-    #mobile-nav-close-btn {
-        font-family: "Plus Jakarta Sans", "Open Sans";
-        font-size: 35px;
-        position: absolute;
-        top: -2px;
-        right: 13px;
-    }
+        #mobile-nav-close-btn {
+            font-family: "Plus Jakarta Sans", "Open Sans";
+            font-size: 35px;
+            position: absolute;
+            top: -2px;
+            right: 13px;
+        }
 
-    #mobile-nav a {
-        font-size: 13px;
-    }
+        #mobile-nav a {
+            font-size: 13px;
+        }
 
-    /*Navigation bar*/
-    .navbar {
-        padding: 5px 0;
-    }
+        /*Navigation bar*/
+        .navbar {
+            padding: 5px 0;
+        }
 
-    /*Home section*/
-    #home {
-        height: 100%;
-        width: 100%;
-        margin-bottom: 100px;
-    }
+        /*Home section*/
+        #home {
+            height: 100%;
+            width: 100%;
+            margin-bottom: 100px;
+        }
 
-    #background_image img {
-        /* display: none; */
-        visibility: hidden;
-    }
+        #background_image img {
+            /* display: none; */
+            visibility: hidden;
+        }
 
-    #background_image{
-        background-image: url('../img/home_page/estate_home_screen_small.png');
-        height: 100%;
-        width: 100%;
-    }
+        #background_image{
+            background-image: url('../img/home_page/estate_home_screen_small.png');
+            height: 100%;
+            width: 100%;
+        }
 
-    .home-screen h1 {
-        position: relative;
-        top: 580px;
-        left: 175px;
-        font-size: 30px;
-        line-height: 40px;
-        width: 350px;
-    }
+        .home-screen h1 {
+            position: relative;
+            top: 580px;
+            left: 175px;
+            font-size: 30px;
+            line-height: 40px;
+            width: 350px;
+        }
 
-    .home-screen p {
-        position: relative;
-        top: 500px;
-        left: 175px;
-        font-size: 13px;
-        line-height: 25px;
-        width: 330px;
-        text-align: justify;
-    }
+        .home-screen p {
+            position: relative;
+            top: 500px;
+            left: 175px;
+            font-size: 13px;
+            line-height: 25px;
+            width: 330px;
+            text-align: justify;
+        }
 
-    /* ======================================
-    |   |   |   Arrow down which displays only from this mobile view
-    ========================================= */
-    #arrow-down {
-        position: absolute;
-        left: 50%;
-        bottom: 3%;
-        color: #fff;
-        font-size: 30px;
-        width: 32px;
-        height: 32px;
-        text-align: center;
-        margin-left: -16px;
-        z-index: 1;
-    }
+        /* ======================================
+        |   |   |   Arrow down which displays only from this mobile view
+        ========================================= */
+        #arrow-down {
+            position: absolute;
+            left: 50%;
+            bottom: 3%;
+            color: #fff;
+            font-size: 30px;
+            width: 32px;
+            height: 32px;
+            text-align: center;
+            margin-left: -16px;
+            z-index: 1;
+        }
 
-    #arrow-down:hover,
-    #arrow-down:focus {
-        color: #fff;
-    }
-    /*Arrow down ends here*/
+        #arrow-down:hover,
+        #arrow-down:focus {
+            color: #fff;
+        }
+        /*Arrow down ends here*/
 
-    /*About Estate company*/
-    #about {
-        height: 720px;
-    }
+        /*About Estate company*/
+        #about {
+            height: 720px;
+        }
 
-    #about_image .front {
-        position: relative;
-        top: -260px;
-        left: 25px;
-        width: 270px;
-        height: 285px;
-        z-index: 1;
-    }
+        #about_image .front {
+            position: relative;
+            top: -260px;
+            left: 25px;
+            width: 270px;
+            height: 285px;
+            z-index: 1;
+        }
 
-    #about_image .back {
-        position: relative;
-        top: 40px;
-        left: 10px;
-        width: 310px;
-        height: 314px;
-    }
+        #about_image .back {
+            position: relative;
+            top: 40px;
+            left: 10px;
+            width: 310px;
+            height: 314px;
+        }
 
-    #about_text {
-        position: relative;
-        top: -380px;
-        width: 330px;
-    }
+        #about_text {
+            position: relative;
+            top: -380px;
+            width: 330px;
+        }
 
-    #about_text h2 {
-        position: relative;
-        top: -290px;
-        font-size: 30px;
-        line-height: 40px;
-        width: 350px;
-    }
+        #about_text h2 {
+            position: relative;
+            top: -290px;
+            font-size: 30px;
+            line-height: 40px;
+            width: 350px;
+        }
 
-    #about_text p {
-        font-size: 13px;
-        padding-bottom: 0;
-        line-height: 23px;
-    }
+        #about_text p {
+            font-size: 13px;
+            padding-bottom: 0;
+            line-height: 23px;
+        }
 
-    #about_text p span{
-        position: relative;
-        top: 20px;
-    }
+        #about_text p span{
+            position: relative;
+            top: 20px;
+        }
 
-    #about_text .about_btn a {
-        font-size: 11px;
-    }
-    
-        /*Estate section*/
+        #about_text .about_btn a {
+            font-size: 11px;
+        }
+        
+            /*Estate section*/
 
-    #estate {
-        height: 2100px;
-        margin-top: 100px;
-    }
+        #estate {
+            height: 2100px;
+            margin-top: 100px;
+        }
 
-    #estate_header h2 {
-        position: relative;
-        top: -65px;
-        left: -5px;
-        width: 762px;
-        height: 67px;
-        font-size: 30px;
-        width: 300px;
-        line-height: 40px;
-    }
+        #estate_header h2 {
+            position: relative;
+            top: -65px;
+            left: -5px;
+            width: 762px;
+            height: 67px;
+            font-size: 30px;
+            width: 300px;
+            line-height: 40px;
+        }
 
-    #estate_header p {
-        position: relative;
-        top: -40px;
-        left: -5px;
-        font-size: 13px;
-        line-height: 23px;
-        text-align: justify;
-        width: 330px;
-    }
+        #estate_header p {
+            position: relative;
+            top: -40px;
+            left: -5px;
+            font-size: 13px;
+            line-height: 23px;
+            text-align: justify;
+            width: 330px;
+        }
 
-    .estate_header_btn a {
-        position: relative;
-        top: -35px;
-        left: 145px;
-        font-size: 11px;
-    }
+        .estate_header_btn a {
+            position: relative;
+            top: -35px;
+            left: 145px;
+            font-size: 11px;
+        }
 
-    #estate_view_1 {
-        position: relative;
-        left: -18px;
-        top: -20px;
-        width: 1000px;
-    }
+        #estate_view_1 {
+            position: relative;
+            left: -18px;
+            top: -20px;
+            width: 1000px;
+        }
 
-    /*Sold/Available button posiition for estate view 1*/
-    #view_1 .image_btn_one a,
-    #view_2 .image_btn_two a,
-    #view_3 .image_btn_three a {
-        position: relative;
-        top: -245px;
-        left: 10px;
-    }
-    /*Sold/Available for estate view 1 ends here*/
+        /*Sold/Available button posiition for estate view 1*/
+        #view_1 .image_btn_one a,
+        #view_2 .image_btn_two a,
+        #view_3 .image_btn_three a {
+            position: relative;
+            top: -245px;
+            left: 10px;
+        }
+        /*Sold/Available for estate view 1 ends here*/
 
-    #estate_view_1 img {
-        height: 260px;
-        width: 315px;
-    }
+        #estate_view_1 img {
+            height: 260px;
+            width: 315px;
+        }
 
-    #view_1 {
-        width: 320px;
-        height: 490px;
-        margin-bottom: 60px;
-    }
-    #view_2 {
-        width: 320px;
-        height: 520px;
-        margin-bottom: 60px;
-    }
-    #view_3 {
-        width: 320px;
-        height: 520px;
-        margin-bottom: 60px;
-    }
-    /*====================================
-    |  |  CSS that affect all section
-    =====================================*/
-    /*housing text for all estate*/
-    .housing_text_below h2 {
-        font-size: 16px;
-    }
-    .housing_text_below p {
-        font-size: 13px;
-    }
-    /*button for all section*/
-    .view_btn a {
-        position: relative;
-        top: 12px;
-        left: 20px;
-        padding: 8px 80px;
-    }
-    /*======ends here================*/
+        #view_1 {
+            width: 320px;
+            height: 490px;
+            margin-bottom: 60px;
+        }
+        #view_2 {
+            width: 320px;
+            height: 520px;
+            margin-bottom: 60px;
+        }
+        #view_3 {
+            width: 320px;
+            height: 520px;
+            margin-bottom: 60px;
+        }
+        /*====================================
+        |  |  CSS that affect all section
+        =====================================*/
+        /*housing text for all estate*/
+        .housing_text_below h2 {
+            font-size: 16px;
+        }
+        .housing_text_below p {
+            font-size: 13px;
+        }
+        /*button for all section*/
+        .view_btn a {
+            position: relative;
+            top: 12px;
+            left: 20px;
+            padding: 8px 80px;
+        }
+        /*======ends here================*/
 
-    #estate_view_2 {
-        display: none;
-        position: relative;
-        top: -20px;
-        left: -35px;
-        width: 1000px;
-    }
+        #estate_view_2 {
+            display: none;
+            position: relative;
+            top: -20px;
+            left: -35px;
+            width: 1000px;
+        }
 
-    /*Sold/Available button posiition for estate view 2*/
-    #view_4 .image_btn_four a,
-    #view_5 .image_btn_five a,
-    #view_6 .image_btn_six a {
-        position: relative;
-        top: -245px;
-        left: 10px;
-    }
-    /*Sold/Available for estate view 2 ends here*/
+        /*Sold/Available button posiition for estate view 2*/
+        #view_4 .image_btn_four a,
+        #view_5 .image_btn_five a,
+        #view_6 .image_btn_six a {
+            position: relative;
+            top: -245px;
+            left: 10px;
+        }
+        /*Sold/Available for estate view 2 ends here*/
 
-    #estate_view_2 img {
-        height: 260px;
-        width: 315px;
-    }
-    #view_4 {
-        width: 320px;
-        height: 460px;
-    }
-    #view_5 {
-        width: 320px;
-        height: 460px;
-    }
-    #view_6 {
-        width: 320px;
-        height: 460px;
-    }
+        #estate_view_2 img {
+            height: 260px;
+            width: 315px;
+        }
+        #view_4 {
+            width: 320px;
+            height: 460px;
+        }
+        #view_5 {
+            width: 320px;
+            height: 460px;
+        }
+        #view_6 {
+            width: 320px;
+            height: 460px;
+        }
 
-    /*Stats*/
-    #stats {
-        height: 850px;
-    }
+        /*Stats*/
+        #stats {
+            height: 850px;
+        }
 
-    #stats .content-box-md {
-        height: 850px;
-    }
+        #stats .content-box-md {
+            height: 850px;
+        }
 
-    #stats .first_stats {
-        height: 100px;
-        width: 260px;
-        top: -20px;
-        left: 40px;
-        padding: 20px;
-    }
+        #stats .first_stats {
+            height: 100px;
+            width: 260px;
+            top: -20px;
+            left: 40px;
+            padding: 20px;
+        }
 
-    #stats .second_stats {
-        height: 100px;
-        width: 260px;
-        left: 40px;
-        top: 80px;
-        padding: 20px;
-    }
+        #stats .second_stats {
+            height: 100px;
+            width: 260px;
+            left: 40px;
+            top: 80px;
+            padding: 20px;
+        }
 
-    #stats .third_stats {
-        height: 100px;
-        width: 260px;
-        left: 40px;
-        top: 180px;
-        padding: 20px;
-    }
+        #stats .third_stats {
+            height: 100px;
+            width: 260px;
+            left: 40px;
+            top: 180px;
+            padding: 20px;
+        }
 
-    #stats .vertical-heading h2 {
-        font-size: 30px;
-        line-height: 40px;
-        padding-bottom: 10px;
-    }
-    
-    #stats .vertical-heading p {
-        font-size: 13px;
-        line-height: 20px;
-    }
+        #stats .vertical-heading h2 {
+            font-size: 30px;
+            line-height: 40px;
+            padding-bottom: 10px;
+        }
+        
+        #stats .vertical-heading p {
+            font-size: 13px;
+            line-height: 20px;
+        }
 
-    .stats-item i {
-        font-size: 25px;
-    }
-    
-    .stats-item h3 {
-        font-size: 25px;
-    }
-    
-    .stats-item p {
-        font-size: 12px;
-    }    
+        .stats-item i {
+            font-size: 25px;
+        }
+        
+        .stats-item h3 {
+            font-size: 25px;
+        }
+        
+        .stats-item p {
+            font-size: 12px;
+        }    
 
-    /*Contact us from continental location*/
-    #location {
-        height: 800px;
-    }
-    
-    .location_text h2 {
-        position: relative;
-        left: -10px;
-        top: -100px;
-        font-size: 30px;
-        line-height: 40px;
-        width: 350px;
-    }
-    
-    .location_text p {
-        position: relative;
-        left: -5px;
-        top: -90px;
-        font-size: 13px;
-        width: 330px;
-        line-height: 25px;
-    }
+        /*Contact us from continental location*/
+        #location {
+            height: 800px;
+        }
+        
+        .location_text h2 {
+            position: relative;
+            left: -10px;
+            top: -100px;
+            font-size: 30px;
+            line-height: 40px;
+            width: 350px;
+        }
+        
+        .location_text p {
+            position: relative;
+            left: -5px;
+            top: -90px;
+            font-size: 13px;
+            width: 330px;
+            line-height: 25px;
+        }
 
-    #location .location_image {
-        position: relative;
-        width: 1100px;
-        top: -80px;
-        left: -300px;
-    }
+        #location .location_image {
+            position: relative;
+            width: 1100px;
+            top: -80px;
+            left: -300px;
+        }
 
-    .location_tag .location_2 {
-        position: relative;
-        top: 440px;
-        left: 100px;
-        z-index: 1;
-    }
+        .location_tag .location_2 {
+            position: relative;
+            top: 440px;
+            left: 100px;
+            z-index: 1;
+        }
 
-    .location_tag .location_3 {
-        position: relative;
-        top: 520px;
-        left: 120px;
-        z-index: 1;
-    }
+        .location_tag .location_3 {
+            position: relative;
+            top: 520px;
+            left: 120px;
+            z-index: 1;
+        }
 
 
-    /*Contact*/
-    #contact {
-        height: 440px;
-    }
+        /*Contact*/
+        #contact {
+            height: 440px;
+        }
 
-    .contact_logo {
-        position: relative;
-        width: 120px;
-        top: -40px;
-        left: 10px;
-    }
-    
-    .office {
-        position: relative;
-        top: 10px;
-        left: -5px;
-    }
+        .contact_logo {
+            position: relative;
+            width: 120px;
+            top: -40px;
+            left: 10px;
+        }
+        
+        .office {
+            position: relative;
+            top: 10px;
+            left: -5px;
+        }
 
-    .office-details {
-        font-size: 13px;
-        line-height: 25px;
-        width: 350px;
-        text-align: justify;
-    }
-    
-    /*Footer*/
-    footer {
-        padding: 5px;
-    }
+        .office-details {
+            font-size: 13px;
+            line-height: 25px;
+            width: 350px;
+            text-align: justify;
+        }
+        
+        /*Footer*/
+        footer {
+            padding: 5px;
+        }
 
-    footer p {
-        position: relative;
-        top: 15px;
-        left: -10px;
-        font-size: 12px;
-        width: 350px;
-    }
-    
-    .footer_icons {
-        position: relative;
-        top: -60px;
-        left:  -200px;
-        font-size: 20px;
-        text-align: right;
-    }
+        footer p {
+            position: relative;
+            top: 15px;
+            left: -10px;
+            font-size: 12px;
+            width: 350px;
+        }
+        
+        .footer_icons {
+            position: relative;
+            top: -60px;
+            left:  -200px;
+            font-size: 20px;
+            text-align: right;
+        }
 
-    .btn-back-to-top {
-        font-size: 15px;
-        z-index: 1;
-    }
+        .btn-back-to-top {
+            font-size: 15px;
+            z-index: 1;
+        }
 }
 
 /* Smartphones (portrait) ----------- */
@@ -948,69 +2647,4 @@ and (max-width : 320px) {
             font-size: 15px;
             z-index: 1;
         }
-}
-
-/* iPads (portrait and landscape) ----------- */
-@media only screen 
-and (min-device-width : 768px) 
-and (max-device-width : 1024px) {
-
-    
-}
-
-/* iPads (landscape) ----------- */
-@media only screen 
-and (min-device-width : 768px) 
-and (max-device-width : 1024px) 
-and (orientation : landscape) {
-  /* Styles */
-}
-
-/* iPads (portrait) ----------- */
-@media only screen 
-and (min-device-width : 768px) 
-and (max-device-width : 1024px) 
-and (orientation : portrait) {
-  /* Styles */
-}
-
-/* Desktops and laptops ----------- */
-@media only screen 
-and (min-width : 1224px) {
-  /* Styles */
-}
-
-/* Large screens ----------- */
-@media only screen 
-and (min-width : 1824px) {
-  /* Styles */
-}
-
-/* iPhone 4 - 5s ----------- */
-@media
-only screen and (-webkit-min-device-pixel-ratio : 1.5),
-only screen and (min-device-pixel-ratio : 1.5) {
-  /* Styles */
-}
-
-/* iPhone 6 ----------- */
-@media
-only screen and (max-device-width: 667px), 
-only screen and (-webkit-device-pixel-ratio: 2) {
-  /* Styles */
-}
-
-/* iPhone 6+ ----------- */
-@media
-only screen and (min-device-width : 414px), 
-only screen and (-webkit-device-pixel-ratio: 3) {
-  /*** You've spent way too much on a phone ***/
-}
-
-/* Samsung Galaxy S7 Edge ----------- */
-@media 
-only screen and (-webkit-min-device-pixel-ratio: 3), 
-only screen and (min-resolution: 192dpi), 
-only screen and (max-width:640px) {
- /* Styles */
 }

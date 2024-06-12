@@ -183,14 +183,14 @@ section {
 |  |  | Estate
 ======================================*/
 #estate {
-    height: 1600px;
+    height: 1700px;
 }
 
 #estate_view_1 {
     position: relative;
     left: -80px;
     width: 1312px;
-    height: 539px;
+    height: 640px;
 }
 
 #estate_header h2 {
@@ -202,13 +202,6 @@ section {
 
 #estate_header h2 span {
     color: #7065f0;
-}
-
-.estate_header_btn a {
-    position: relative;
-    top: -90px;
-    left: 950px;
-    text-decoration: none;
 }
 
 /*=====================================================
@@ -266,7 +259,7 @@ section {
 
 .view_btn a {
     position: relative;
-    top: 12px;
+    top: 20px;
     left: 40px;
     padding: 13px 100px;
     text-decoration: none;
@@ -278,12 +271,16 @@ section {
 ====================================================*/
 
 #estate_view_1 img {
+    position: relative;
+    top: 3px;
+    left: 2px;
     height: 300px;
+    width: 414px;
 }
 
 #view_1 {
     width: 421px;
-    height: 510px;
+    height: 580px;
     border: 2px solid #f2f2f2;
     border-radius: 12px;
     background-color: #f4f4f4;
@@ -291,7 +288,7 @@ section {
 
 #view_2 {
     width: 421px;
-    height: 510px;
+    height: 580px;
     border: 2px solid #f2f2f2;
     border-radius: 12px;
     background-color: #f4f4f4;
@@ -299,7 +296,7 @@ section {
 
 #view_3 {
     width: 421px;
-    height: 510px;
+    height: 580px;
     border: 2px solid #f2f2f2;
     border-radius: 12px;
     background-color: #f4f4f4;
@@ -339,6 +336,15 @@ section {
     border: 2px solid #f2f2f2;
     border-radius: 12px;
     background-color: #f4f4f4;
+}
+
+
+.estate_header_btn a {
+    position: relative;
+    top: 50px;
+    left: 560px;
+    text-decoration: none;
+    font-size: 16px;
 }
 
 
@@ -586,14 +592,14 @@ section {
 
 /*Below is the "Reach Us! section" at the navigation bar css*/
 .get_touch_btn {
-    left: 560.9px;
     text-decoration: none;
     z-index: 1;
 }
 
 .get_touch_btn a {
     position: relative;
-    top: 10px;
+    top: -25px;
+    left: 560px;
     text-decoration: none;
 }   
 
