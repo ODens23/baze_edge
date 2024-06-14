@@ -134,6 +134,28 @@ section {
     height: 64px;
 }
 
+/* ======================================
+|   Arrow down which displays only from this mobile view
+========================================= */
+        #arrow-down {
+            position: absolute;
+            left: 50%;
+            bottom: 3%;
+            color: #fff;
+            font-size: 30px;
+            width: 32px;
+            height: 32px;
+            text-align: center;
+            margin-left: -16px;
+            z-index: 1;
+        }
+
+        #arrow-down:hover,
+        #arrow-down:focus {
+            color: #fff;
+        }
+        /*Arrow down ends here*/
+
 /*===================================
 |  |  About Estate company
 ====================================*/
@@ -592,14 +614,14 @@ section {
 
 /*Below is the "Reach Us! section" at the navigation bar css*/
 .get_touch_btn {
+    left: 560.9px;
     text-decoration: none;
     z-index: 1;
 }
 
 .get_touch_btn a {
     position: relative;
-    top: -25px;
-    left: 560px;
+    top: 10px;
     text-decoration: none;
 }   
 
