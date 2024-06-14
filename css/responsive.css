@@ -4155,7 +4155,7 @@
     left: 175px;
     font-size: 13px;
     line-height: 25px;
-    width: 320px;
+    width: 330px;
     text-align: justify;
 }
 
@@ -4207,7 +4207,7 @@
 #about_text {
     position: relative;
     top: -380px;
-    width: 410px;
+    width: 330px;
 }
 
 #about_text h2 {
