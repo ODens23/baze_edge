@@ -91,25 +91,34 @@ section {
 |   |   |   Home page
 ========================================= */
 #home {
-    height: 750px;
-    width: auto;
+    height: 100%;
+    width: 100%;
     margin-bottom: 100px;
 }
+
+#background_image {
+    position: absolute;
+    min-width: 100%;
+    min-height: 100%;
+}
+
 #home-screens {
     position: relative;
-    top: -440px;
+    top: -40px;
+    left: -180px;
     width: auto;
 }
 
+
 #home .row {
     position: relative;
-    left: -150px;
-    width: 1500px;
+    top: 160px;
+    height: 1000px;
 }
 
 .home-screen h1 {
     position: relative;
-    top: 550px;
+    top: -40px;
     left: 100px;
     margin: 0;
     color: #fff;
@@ -117,27 +126,24 @@ section {
     font-weight: 800;
     line-height: 70px;
     text-align: left;
-    width: 905px;
-    height: 243px;
 }
 
 .home-screen p {
-    color: #fff;
     position: relative;
-    top: 500px;
+    top: -40px;
     left: 100px;
+    color: #fff;
     font-weight: 400;
     line-height: 30px;
     text-align: left;
-    width: 835px;
-    height: 64px;
+    margin-top: -20px;
 }
 
 
 /* ======================================
 |   |   |   Arrow down
 ========================================= */
-/* #arrow-down {
+#arrow-down {
     position: absolute;
     left: 50%;
     bottom: 3%;
@@ -153,7 +159,7 @@ section {
 #arrow-down:hover,
 #arrow-down:focus {
     color: #fff;
-} */
+}
 
 
 /*===================================
@@ -353,7 +359,7 @@ section {
     position: relative;
     left: -80px;
     width: 1312px;
-    height: 539px;
+    height: 640px;
 }
 
 #estate_header h2 {
@@ -367,26 +373,17 @@ section {
     color: #7065f0;
 }
 
-.estate_header_btn a {
-    position: relative;
-    top: -90px;
-    left: 950px;
-    text-decoration: none;
-}
-
-#estate_view_1 img {
-    height: 300px;
-}
-
-#view_1 {
-    width: 421px;
-    height: 510px;
-    border: 2px solid #f2f2f2;
-    border-radius: 12px;
-    background-color: #f4f4f4;
-}
-/*Below is Sold/Available button for property view 1*/
-.image_btn_one a {
+/*=====================================================
+|  | Below are style same for all estate buildings begins 
+======================================================*/
+/*Below is Sold/Available button for property view 1 because it's RED*/
+/* #view_1 .image_btn_one a {
+    background-color: red;
+} */
+/*Below is Sold/Available button for property view 1-3*/
+.image_btn_one a,
+#view_2 .image_btn_two a,
+#view_3 .image_btn_three a {
     position: relative;
     top: -285px;
     left: 10px;
@@ -397,10 +394,24 @@ section {
     border: 1px solid #fff;
     background-color: #7065f0;
 }
+/*=======ends here=================*/
 
-/*=====================================================
-|  |Below are style same for all estate buildings begins 
-======================================================*/
+/*Below is Sold/Available button for property view 4-6*/
+#view_4 .image_btn_four a,
+#view_5 .image_btn_five a,
+#view_6 .image_btn_six a {
+    position: relative;
+    top: -285px;
+    left: 10px;
+    border-radius: 0;
+    padding: 8px;
+    text-decoration: none;
+    color: #fff;
+    border: 1px solid #fff;
+    background-color: #7065f0;
+}
+/*=======ends here=================*/
+
 .housing_text_below {
     position: relative;
     top: -40px;
@@ -417,55 +428,95 @@ section {
 
 .view_btn a {
     position: relative;
-    top: 12px;
+    top: 20px;
     left: 40px;
     padding: 13px 100px;
     text-decoration: none;
     border-radius: 12px;
 }
+
 /*===================================================
 |  |  same style for all estate building ends here
 ====================================================*/
 
-#view_2 {
+#estate_view_1 img {
+    position: relative;
+    top: 3px;
+    left: 2px;
+    height: 300px;
+    width: 414px;
+}
+
+#view_1 {
     width: 421px;
-    height: 510px;
+    height: 580px;
     border: 2px solid #f2f2f2;
     border-radius: 12px;
     background-color: #f4f4f4;
 }
-/*Below is Sold/Available button for property view 1*/
-#view_2 .image_btn_two a {
-    position: relative;
-    top: -285px;
-    left: 10px;
-    border-radius: 0;
-    padding: 8px;
-    text-decoration: none;
-    color: #fff;
-    border: 1px solid #fff;
-    background-color: #7065f0;
+
+#view_2 {
+    width: 421px;
+    height: 580px;
+    border: 2px solid #f2f2f2;
+    border-radius: 12px;
+    background-color: #f4f4f4;
 }
 
 #view_3 {
     width: 421px;
+    height: 580px;
+    border: 2px solid #f2f2f2;
+    border-radius: 12px;
+    background-color: #f4f4f4;
+}
+
+#estate_view_2 {
+    position: relative;
+    top: 20px;
+    left: -80px;
+    width: 1312px;
+    height: 539px;
+}
+
+#estate_view_2 img {
+    height: 300px;
+}
+
+#view_4 {
+    width: 421px;
     height: 510px;
     border: 2px solid #f2f2f2;
     border-radius: 12px;
     background-color: #f4f4f4;
 }
-/*Below is Sold/Available button for property view 1*/
-#view_3 .image_btn_three a {
-    position: relative;
-    top: -285px;
-    left: 10px;
-    border-radius: 0;
-    padding: 8px;
-    text-decoration: none;
-    color: #fff;
-    border: 1px solid #fff;
-    background-color: #7065f0;
+
+#view_5 {
+    width: 421px;
+    height: 510px;
+    border: 2px solid #f2f2f2;
+    border-radius: 12px;
+    background-color: #f4f4f4;
 }
+
+#view_6 {
+    width: 421px;
+    height: 510px;
+    border: 2px solid #f2f2f2;
+    border-radius: 12px;
+    background-color: #f4f4f4;
+}
+
+
+.estate_header_btn a {
+    position: relative;
+    top: 50px;
+    left: 560px;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+
 
 
 /* ======================================

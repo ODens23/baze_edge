@@ -71,9 +71,6 @@
 }
 
 
-
-
-
 /*==========================================
 |   |   Bootstrap 3 Media Queries
 ============================================*/
@@ -2773,7 +2770,7 @@
     /*Mobile Menu button display*/
     #mobile-nav-open-btn {
         display: block;
-        left: 540px;
+        left: 530px;
         top: 5px;
         font-size: 30px;
         color: #7065f0
@@ -2836,7 +2833,7 @@
         left: 190px;
         font-size: 15px;
         line-height: 25px;
-        width: 490px;
+        width: 520px;
         text-align: justify;
     }
 
@@ -2887,7 +2884,7 @@
         position: relative;
         top: -440px;
         left: 15px;
-        width: 540px;
+        width: 520px;
     }
 
     #about_text h2 {
@@ -2940,13 +2937,13 @@
         font-size: 15px;
         line-height: 23px;
         text-align: justify;
-        width: 540px;
+        width: 520px;
         padding: 20px 0;
     }
 
     #estate_view_1 {
         position: relative;
-        left: 18px;
+        left: 10px;
         top: -20px;
         width: 100px;
     }
@@ -2967,17 +2964,17 @@
     }
 
     #view_1 {
-        width: 450px;
+        width: 500px;
         height: 580px;
         margin-bottom: 60px;
     }
     #view_2 {
-        width: 450px;
+        width: 500px;
         height: 580px;
         margin-bottom: 60px;
     }
     #view_3 {
-        width: 450px;
+        width: 500px;
         height: 580px;
         margin-bottom: 60px;
     }
@@ -3023,15 +3020,15 @@
         width: 99%;
     }
     #view_4 {
-        width: 450px;
+        width: 500px;
         height: 580px;
     }
     #view_5 {
-        width: 450px;
+        width: 500px;
         height: 580px;
     }
     #view_6 {
-        width: 450px;
+        width: 500px;
         height: 580px;
     }
 
@@ -3129,12 +3126,12 @@
         position: relative;
         width: 150px;
         top: -10px;
-        left: -20px;
+        left: -10px;
     }
 
     .office {
         top: 10px;
-        left: -10px;
+        left: -3px;
     }
 
     .office-details {
@@ -3152,7 +3149,7 @@
     footer p {
         position: relative;
         top: 14px;
-        left: -20px;
+        left: -15px;
         font-size: 13px;
         
     }
@@ -3200,7 +3197,7 @@
         /*Mobile Menu button display*/
         #mobile-nav-open-btn {
             display: block;
-            left: 460px;
+            left: 430px;
             top: 5px;
             font-size: 25px;
             color: #7065f0
@@ -3254,7 +3251,7 @@
             left: 175px;
             font-size: 30px;
             line-height: 40px;
-            width: 420px;
+            width: 450px;
         }
 
         .home-screen p {
@@ -3263,7 +3260,7 @@
             left: 175px;
             font-size: 13px;
             line-height: 25px;
-            width: 430px;
+            width: 450px;
             text-align: justify;
         }
 
@@ -3315,7 +3312,7 @@
         #about_text {
             position: relative;
             top: -380px;
-            width: 470px;
+            width: 450px;
         }
 
         #about_text h2 {
@@ -3323,7 +3320,7 @@
             top: -290px;
             font-size: 30px;
             line-height: 40px;
-            width: 350px;
+            width: 445px;
         }
 
         #about_text p {
@@ -3366,7 +3363,7 @@
             font-size: 13px;
             line-height: 23px;
             text-align: justify;
-            width: 470px;
+            width: 450px;
         }
 
         #estate_view_1 {
@@ -3625,7 +3622,7 @@
 /* Extra small Device - Large mobile (Portrait phones and Smaller devices) */
 @media (min-width: 413px) and (max-width: 480px) {
 
-            /*Navigation bar*/
+        /*Navigation bar*/
         .navbar-brand {
             padding: 10px 10px;
         }
@@ -3646,7 +3643,7 @@
         /*Mobile Menu button display*/
         #mobile-nav-open-btn {
             display: block;
-            left: 390px;
+            left: 360px;
             top: 5px;
             font-size: 25px;
             color: #7065f0
@@ -3700,7 +3697,7 @@
             left: 175px;
             font-size: 29px;
             line-height: 40px;
-            width: 420px;
+            width: 390px;
         }
 
         .home-screen p {
@@ -3709,7 +3706,7 @@
             left: 175px;
             font-size: 13px;
             line-height: 25px;
-            width: 410px;
+            width: 380px;
             text-align: justify;
         }
 
@@ -3761,7 +3758,7 @@
         #about_text {
             position: relative;
             top: -380px;
-            width: 410px;
+            width: 380px;
         }
 
         #about_text h2 {
@@ -3812,12 +3809,12 @@
             font-size: 13px;
             line-height: 23px;
             text-align: justify;
-            width: 410px;
+            width: 380px;
         }
 
         #estate_view_1 {
             position: relative;
-            left: -10px;
+            left: -25px;
             top: -20px;
             width: 1000px;
         }
@@ -3977,11 +3974,11 @@
         
         .location_text h2 {
             position: relative;
-            left: -50px;
+            left: -5px;
             top: -100px;
             font-size: 30px;
             line-height: 40px;
-            width: 500px;
+            width: 380px;
         }
         
         .location_text p {
@@ -3989,7 +3986,7 @@
             left: -10px;
             top: -90px;
             font-size: 13px;
-            width: 400px;
+            width: 380px;
             line-height: 25px;
         }
 
