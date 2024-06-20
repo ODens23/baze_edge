@@ -72,7 +72,7 @@ section {
     left: 50%;
     margin-left: -35px;
     margin-top: -35px;
-    background-image: url("../img2/preloader/preloader.gif")
+    background-image: url("/img/about_page_images/preloader/preloader.gif")
 }
 
 
@@ -173,8 +173,6 @@ section {
     position: relative;
     top: -500px;
     padding-left: 100px;
-    width: 409;
-    height: 416;
     left: -5px;
     z-index: 1;
     border-radius: 80px;

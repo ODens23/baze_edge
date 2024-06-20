@@ -341,7 +341,7 @@
     /*Home section*/
     .nav {
         position: relative;
-        left: -60px;
+        left: -75px;
     }
 
     #home .row {
@@ -531,7 +531,7 @@
     /*Home section*/
     .nav {
         position: relative;
-        left: 5px;
+        left: -25px;
     }
 
     #home .row {
@@ -541,19 +541,19 @@
 
     .home-screen {
         position: relative;
-        top: 50px;
+        top: 110px;
         height: 1000px;
         padding-top: 50px;
     }
 
     .home-screen h1 {
-        left: 200px;
+        left: 120px;
         font-size: 45px;
     }
     .home-screen p {
         position: relative;
         top: -50px;
-        left: 200px;
+        left: 120px;
     }
 
     /* ======================================
@@ -564,27 +564,76 @@
     }
     /*Arrow down ends here*/
 
-    /*About Estate company*/
-    #about {
-        margin-top: -50px;
-    }
-    #about_image .front {
-        position: relative;
-        top: -500px;
-        left: -30px;
-        width: 450px;
-        z-index: 1;
+    /*About Team*/
+    #about_team {
+        margin-top: -300px;
     }
 
-    #about_image .back {
+    #about_team_text {
         position: relative;
-        top: -10px;
-        left: -80px;
-        width: 540px;
+        left: -50px;
+        width: 1050px;
     }
 
-    #about_text h2 {
-        font-size: 41px;
+    /* Team photo, text and icons */
+    .team {
+        padding-top: 80px;
+    }
+
+    .team h2 {
+        position: relative;
+        left: 12px;
+        padding-bottom: 40px;
+    }
+
+    .team_photo {
+        position: relative;
+        top: -20px;
+        left: 5px;
+        width: 300px;
+        height: 380px;
+        -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        border-radius: 8px;
+        margin-bottom: 40px;
+    }
+
+    .team_photo img {
+        position: relative;
+        top: 5px;
+        height: 300px;
+        width: auto;
+    }
+
+    .team_text h2 {
+        position: relative;
+        top: -40px;
+        left: 10px;
+        font-size: 14px;
+        font-weight: bold;
+        color: #000;
+    }
+
+    .team_photo_text p {
+        position: relative;
+        top: 25px;
+        left: 10px;
+        font-size: 13px;
+        color: #7065f0;
+        font-weight: 500;
+    }
+
+    .team_icons {
+        position: relative;
+        top: -66px;
+        left: -10px;
+        font-size: 17px;
+        text-align: right;
+    }
+
+    .team_icons .socials_icons {
+        padding-left: 8px;
+        padding-right: 8px;
     }
 
 
@@ -699,18 +748,7 @@
         left: 480px;
     }
 
-    /*Contact us from continental location*/
-    .location_text h2 {
-        left: 70px;
-    }
-    
-    .location_text p {
-        left: 180px;
-        width: 600px;
-    }
-
-    /*Contact*/
-    
+    /*Contact*/    
     .contact_logo {
         position: relative;
         width: 160px;
@@ -757,18 +795,30 @@
     /*Home section*/
     .nav {
         position: relative;
-        left: -30px;
+        left: -60px;
+    }
+
+    #home .row {
+        position: relative;
+        top: 60px;
+    }
+
+    .home-screen {
+        position: relative;
+        top: 110px;
+        height: 1000px;
+        padding-top: 50px;
     }
 
     .home-screen h1 {
-        left: 140px;
+        top: 10px;
+        left: 150px;
         font-size: 40px;
-        width: 700px;
     }
     .home-screen p {
-        top: 420px;
-        left: 140px;
-        width: 700px;
+        position: relative;
+        top: -30px;
+        left: 150px;
     }
 
     /* ======================================
@@ -779,29 +829,86 @@
     }
     /*Arrow down ends here*/
 
-    /*About Estate company*/
-    #about {
-        margin-top: -50px;
+    /*About Team*/
+    #about_team {
+        margin-top: -400px;
     }
-    #about_image .front {
+
+    #about_team_text {
         position: relative;
-        top: -500px;
         left: -30px;
-        width: 450px;
-        z-index: 1;
+        width: 1000px;
     }
 
-    #about_image .back {
+    #about_team_text h2 {
+        font-size: 40px;
+    }
+
+    #about_team_text p {
+        font-size: 16px;
+    }
+    
+
+    /* Team photo, text and icons */
+    .team {
+        padding-top: 80px;
+    }
+
+    .team h2 {
         position: relative;
-        top: -10px;
-        left: -80px;
-        width: 540px;
+        left: 12px;
+        padding-bottom: 40px;
     }
 
-    #about_text h2 {
-        font-size: 41px;
+    .team_photo {
+        position: relative;
+        top: -20px;
+        left: 5px;
+        width: 300px;
+        height: 380px;
+        -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        border-radius: 8px;
+        margin-bottom: 40px;
     }
 
+    .team_photo img {
+        position: relative;
+        top: 5px;
+        height: 300px;
+        width: auto;
+    }
+
+    .team_text h2 {
+        position: relative;
+        top: -40px;
+        left: 10px;
+        font-size: 14px;
+        font-weight: bold;
+        color: #000;
+    }
+
+    .team_photo_text p {
+        position: relative;
+        top: 25px;
+        left: 10px;
+        font-size: 13px;
+        color: #7065f0;
+        font-weight: 500;
+    }
+
+    .team_icons {
+        position: relative;
+        top: -66px;
+        left: -10px;
+        font-size: 17px;
+        text-align: right;
+    }
+
+    .team_icons .socials_icons {
+        padding-left: 8px;
+        padding-right: 8px;
+    }
 
     /*Estate section*/
     #estate_header h2 {
@@ -918,18 +1025,6 @@
         left: 440px;
     }
 
-    /*Contact us from continental location*/
-
-    
-    .location_text h2 {
-        left: 70px;
-    }
-    
-    .location_text p {
-        left: 190px;
-        width: 600px;
-    }
-
     /*Contact*/
     
     .contact_logo {
@@ -978,8 +1073,8 @@
     /*Home section*/
     .nav {
         position: relative;
-        left: -50px;
-        padding: -5px 0;
+        left: -90px;
+        padding: -10px 0;
     }
 
     ul.navbar-nav > li > a {
@@ -987,7 +1082,7 @@
     }
 
     .get_touch_btn a {
-        left: 530px;
+        left: -10px;
     }   
     
     .navbar-brand img {
@@ -995,15 +1090,27 @@
         top: -5px;
     }
 
+    #home .row {
+        position: relative;
+        top: 60px;
+    }
+
+    .home-screen {
+        position: relative;
+        top: 110px;
+        height: 1000px;
+        padding-top: 50px;
+    }
+
     .home-screen h1 {
+        top: 10px;
         left: 180px;
         font-size: 35px;
-        width: 640px;
     }
     .home-screen p {
-        top: 420px;
+        position: relative;
+        top: -30px;
         left: 180px;
-        width: 620px;
         font-size: 15px;
     }
 
@@ -1015,37 +1122,87 @@
     }
     /*Arrow down ends here*/
 
-    /*About Estate company*/
-    #about {
-        margin-top: -90px;
-    }
-    #about_image .front {
-        position: relative;
-        top: -490px;
-        left: 20px;
-        width: 430px;
-        z-index: 1;
+    /*About Team*/
+    #about_team {
+        margin-top: -400px;
     }
 
-    #about_image .back {
+    #about_team_text {
         position: relative;
-        top: -10px;
-        left: -20px;
-        width: 520px;
+        left: -10px;
+        width: 960px;
     }
 
-    #about_text h2 {
+    #about_team_text h2 {
         font-size: 35px;
-        line-height: 50px;
     }
 
-    #about_text p {
+    #about_team_text p {
         font-size: 15px;
     }
+    
 
-    #about_text .about_btn a {
-        font-size: 11px;
+    /* Team photo, text and icons */
+    .team {
+        padding-top: 80px;
     }
+
+    .team h2 {
+        position: relative;
+        left: 12px;
+        padding-bottom: 40px;
+    }
+
+    .team_photo {
+        position: relative;
+        top: -20px;
+        left: 5px;
+        width: 300px;
+        height: 380px;
+        -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        border-radius: 8px;
+        margin-bottom: 40px;
+    }
+
+    .team_photo img {
+        position: relative;
+        top: 5px;
+        height: 300px;
+        width: auto;
+    }
+
+    .team_text h2 {
+        position: relative;
+        top: -40px;
+        left: 10px;
+        font-size: 14px;
+        font-weight: bold;
+        color: #000;
+    }
+
+    .team_photo_text p {
+        position: relative;
+        top: 25px;
+        left: 10px;
+        font-size: 13px;
+        color: #7065f0;
+        font-weight: 500;
+    }
+
+    .team_icons {
+        position: relative;
+        top: -66px;
+        left: -10px;
+        font-size: 17px;
+        text-align: right;
+    }
+
+    .team_icons .socials_icons {
+        padding-left: 8px;
+        padding-right: 8px;
+    }
+
 
     /*Estate section*/
     #estate_header h2 {
@@ -1186,22 +1343,7 @@
         font-size: 15px;
     }    
 
-    /*Contact us from continental location*/
-    .location_text h2 {
-        font-size: 35px;
-        line-height: 60px;
-        left: 70px;
-    }
-
-    .location_text p {
-        top: -20px;
-        font-size: 15px;
-        left: 190px;
-        width: 580px;
-    }
-
     /*Contact*/
-    
     .contact_logo {
         position: relative;
         width: 150px;
@@ -1250,8 +1392,7 @@
     /*Home section*/
     .nav {
         position: relative;
-        left: 5px;
-        padding: -10px 0;
+        left: -30px;
     }
 
     ul.navbar-nav > li > a {
@@ -1259,7 +1400,7 @@
     }
 
     .get_touch_btn a {
-        left: 500px;
+        left: -35px;
         font-size: 10px;
     }   
     
@@ -1268,19 +1409,28 @@
         top: -5px;
     }
 
+    #home .row {
+        position: relative;
+        top: 60px;
+    }
+
+    .home-screen {
+        position: relative;
+        top: 110px;
+        height: 1000px;
+        padding-top: 50px;
+    }
+
     .home-screen h1 {
-        top: 490px;
+        top: -30px;
         left: 130px;
         font-size: 35px;
-        width: 500px;
-        line-height: 55px;
     }
     .home-screen p {
-        top: 390px;
+        position: relative;
+        top: -60px;
         left: 130px;
-        width: 500px;
         font-size: 14px;
-        text-align: justify;
     }
 
     /* ======================================
@@ -1291,49 +1441,129 @@
     }
     /*Arrow down ends here*/
 
-    /*About Estate company*/
-    #about {
-        margin-top: -300px;
+    /*About Team*/
+    #about_team {
+        height: 3000px;
+        margin-top: -600px;
     }
-    #about_image .front {
+    
+    #about_team_image .front {
         position: relative;
-        top: -460px;
-        left: -10px;
-        width: 400px;
-        z-index: 1;
+        top: -1920px;
+        left: 250px;
     }
 
-    #about_image .back {
+    #about_team_text {
         position: relative;
-        top: -10px;
-        left: -60px;
-        width: 490px;
+        left: -40px;
+        width: 800px;
     }
 
-    #about_text {
-        position: relative;
-        top: -860px;
-        left: 440px;
-        width: 350px;
+    #about_team_text h2 {
+        font-size: 35px;
     }
 
-    #about_text h2 {
-        font-size: 30px;
-        line-height: 40px;
-    }
-
-    #about_text p {
+    #about_team_text p {
         font-size: 14px;
-        line-height: 25px;
+    }
+    
+
+    /* Team photo, text and icons */
+    .team {
+        position: relative;
+        top: -800px;
+        padding-top: 0px;
     }
 
-    #about_text .about_btn a {
-        font-size: 10px;
+    .team h2 {
+        position: relative;
+        left: 12px;
+        padding-bottom: 40px;
     }
+
+    .team_photo {
+        position: relative;
+        top: -20px;
+        left: 10px;
+        width: 300px;
+        height: 380px;
+        -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        border-radius: 8px;
+        margin-bottom: 40px;
+    }
+
+    .team_photo img {
+        position: relative;
+        top: 5px;
+        height: 300px;
+        width: auto;
+    }
+
+    .team_text h2 {
+        position: relative;
+        top: -40px;
+        left: 10px;
+        font-size: 14px;
+        font-weight: bold;
+        color: #000;
+    }
+
+    .team_photo_text p {
+        position: relative;
+        top: 25px;
+        left: 10px;
+        font-size: 13px;
+        color: #7065f0;
+        font-weight: 500;
+    }
+
+    .team_icons {
+        position: relative;
+        top: -66px;
+        left: -10px;
+        font-size: 17px;
+        text-align: right;
+    }
+
+    .team_icons .socials_icons {
+        padding-left: 8px;
+        padding-right: 8px;
+    }
+
+    /*below is the css setup for two pictures in a row to accommodate smaller screens*/
+    #team_2 {
+        position: relative;
+        top: -420px;
+        left: 400px;
+    }
+
+    #team_3 {
+        position: relative;
+        top: -420px;
+    }
+
+    #team_4 {
+        position: relative;
+        top: -840px;
+        left: 400px;
+    }
+
+    #team_5 {
+        position: relative;
+        top: -840px;
+    }
+
+    #team_6 {
+        position: relative;
+        top: -1260px;
+        left: 400px;
+    }
+
 
     /*Estate section*/
     #estate {
-        height: 2100px;
+        height: 1500px;
         margin-top: -100px;
     }
 
@@ -1459,11 +1689,19 @@
     /*Estate down button*/
     .estate_header_btn a {
         position: relative;
-        top: 450px;
+        top: 530px;
         left: 360px;
     }
 
     /*Stats*/
+    #stats {
+        height: 510px;
+    }
+    
+    #stats .content-box-md {
+        height: 510px;
+    }
+
     #stats .first_stats {
         height: 100px;
         width: 280px;
@@ -1485,9 +1723,8 @@
 
     #stats .vertical-heading h2 {
         font-size: 30px;
-
     }
-    
+
     #stats .vertical-heading p {
         font-size: 14px;
     }
@@ -1495,52 +1732,26 @@
     .stats-item i {
         font-size: 35px;
     }
-    
+
     .stats-item h3 {
         font-size: 30px;
     }
-    
+
     .stats-item p {
         font-size: 14px;
     }    
 
-    /*Contact us from continental location*/
-    #location {
-        height: 900px;
-    }
-
-    .location_text h2 {
-        font-size: 30px;
-        line-height: 60px;
-        left: -30px;
-    }
-
-    .location_text p {
-        top: -20px;
-        font-size: 14px;
-        left: 110px;
-        width: 580px;
-    }
-
-    #location .location_image {
-        position: relative;
-        width: 1300px;
-        top: -20px;
-        left: -150px;
-    }
-
     /*Contact*/
-    
     .contact_logo {
         position: relative;
         width: 150px;
         top: -10px;
-        left: -60px;
+        left: -40px;
     }
 
     .office {
         top: 10px;
-        left: -60px;
+        left: -40px;
     }
 
     .office-details {
@@ -1558,7 +1769,7 @@
     footer p {
         position: relative;
         top: 14px;
-        left: -60px;
+        left: -40px;
         font-size: 15px;
         
     }
@@ -1575,7 +1786,7 @@
     /*Home section*/
     .nav {
         position: relative;
-        left: -30px;
+        left: -55px;
         padding: -10px 0;
     }
 
@@ -1587,32 +1798,38 @@
         font-size: 9px;
     }
 
+    .get_touch_btn a {
+        left: -55px;
+        font-size: 9px;
+    }   
+    
     .navbar-brand img {
-        width: 90px;
+        width: 100px;
         top: -5px;
     }
 
-    /*Below is the "Reach Us! section" at the navigation bar css*/
-    .get_touch_btn a {
-        top: -25px;
-        left: 464px;
-        text-decoration: none;
-        font-size: 9px;
-    }  
+    #home .row {
+        position: relative;
+        top: 60px;
+    }
+
+    .home-screen {
+        position: relative;
+        top: 110px;
+        height: 1000px;
+        padding-top: 50px;
+    }
 
     .home-screen h1 {
-        top: 490px;
-        left: 160px;
+        top: -70px;
+        left: 180px;
         font-size: 35px;
-        width: 500px;
-        line-height: 55px;
     }
     .home-screen p {
-        top: 390px;
-        left: 160px;
-        width: 500px;
+        position: relative;
+        top: -100px;
+        left: 180px;
         font-size: 14px;
-        text-align: justify;
     }
 
     /* ======================================
@@ -1623,60 +1840,143 @@
     }
     /*Arrow down ends here*/
 
-    /*About Estate company*/
-    #about {
-        margin-top: -300px;
+    /*About Team*/
+    #about_team {
+        height: 3100px;
+        margin-top: -700px;
     }
-    #about_image .front {
+
+    #about_team_image .front {
         position: relative;
-        top: -450px;
-        left: -10px;
-        width: 390px;
-        z-index: 1;
+        top: -2050px;
+        left: 300px;
+        width: 380px;
     }
 
-    #about_image .back {
+    #about_team_text {
         position: relative;
-        top: -10px;
-        left: -70px;
-        width: 480px;
+        top: -90px;
+        left: -5px;
+        width: 730px;
     }
 
-    #about_text {
-        position: relative;
-        top: -860px;
-        left: 400px;
-        width: 350px;
+    #about_team_text h2 {
+        font-size: 35px;
+        line-height: 50px;
     }
 
-    #about_text h2 {
-        font-size: 30px;
-        line-height: 40px;
-    }
-
-    #about_text p {
+    #about_team_text p {
         font-size: 14px;
-        line-height: 25px;
+        line-height: 35px;
     }
 
-    #about_text .about_btn a {
-        font-size: 9px;
+
+    /* Team photo, text and icons */
+    .team {
+        position: relative;
+        top: -800px;
+        padding-top: 0px;
+    }
+
+    .team h2 {
+        position: relative;
+        left: 12px;
+        padding-bottom: 40px;
+    }
+
+    .team_photo {
+        position: relative;
+        top: -20px;
+        left: 10px;
+        width: 300px;
+        height: 380px;
+        -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        border-radius: 8px;
+        margin-bottom: 40px;
+    }
+
+    .team_photo img {
+        position: relative;
+        top: 5px;
+        height: 300px;
+        width: auto;
+    }
+
+    .team_text h2 {
+        position: relative;
+        top: -40px;
+        left: 10px;
+        font-size: 14px;
+        font-weight: bold;
+        color: #000;
+    }
+
+    .team_photo_text p {
+        position: relative;
+        top: 25px;
+        left: 10px;
+        font-size: 13px;
+        color: #7065f0;
+        font-weight: 500;
+    }
+
+    .team_icons {
+        position: relative;
+        top: -66px;
+        left: -10px;
+        font-size: 17px;
+        text-align: right;
+    }
+
+    .team_icons .socials_icons {
+        padding-left: 8px;
+        padding-right: 8px;
+    }
+
+    /*below is the css setup for two pictures in a row to accommodate smaller screens*/
+    #team_2 {
+        position: relative;
+        top: -420px;
+        left: 400px;
+    }
+
+    #team_3 {
+        position: relative;
+        top: -420px;
+    }
+
+    #team_4 {
+        position: relative;
+        top: -840px;
+        left: 400px;
+    }
+
+    #team_5 {
+        position: relative;
+        top: -840px;
+    }
+
+    #team_6 {
+        position: relative;
+        top: -1260px;
+        left: 400px;
     }
 
     /*Estate section*/
     #estate {
-        height: 2100px;
+        height: 1450px;
         margin-top: -100px;
     }
 
     #estate_header h2 {
-        left: -20px;
+        left: -10px;
         font-size: 30px;
     }
     #estate_header p {
         position: relative;
         top: -50px;
-        left: -20px;
+        left: -10px;
         font-size: 14px;
     }
     
@@ -1710,7 +2010,7 @@
     #view_2 {
         position: relative;
         top: -580px;
-        left: 400px;
+        left: 390px;
         width: 100%;
         height: 520px;
         margin-bottom: 60px;
@@ -1793,11 +2093,19 @@
     /*Estate down button*/
     .estate_header_btn a {
         position: relative;
-        top: 450px;
-        left: 340px;
+        top: 490px;
+        left: 330px;
     }
 
     /*Stats*/
+    #stats {
+        height: 510px;
+    }
+    
+    #stats .content-box-md {
+        height: 510px;
+    }
+
     #stats .first_stats {
         height: 100px;
         width: 270px;
@@ -1836,45 +2144,19 @@
     
     .stats-item p {
         font-size: 14px;
-    }    
-
-    /*Contact us from continental location*/
-    #location {
-        height: 900px;
-    }
-
-    .location_text h2 {
-        font-size: 30px;
-        line-height: 60px;
-        left: -30px;
-    }
-
-    .location_text p {
-        top: -20px;
-        font-size: 14px;
-        left: 110px;
-        width: 580px;
-    }
-
-    #location .location_image {
-        position: relative;
-        width: 1300px;
-        top: -20px;
-        left: -150px;
-    }
+    }   
 
     /*Contact*/
-    
     .contact_logo {
         position: relative;
         width: 150px;
         top: -10px;
-        left: -20px;
+        left: -10px;
     }
 
     .office {
         top: 10px;
-        left: -20px;
+        left: -10px;
     }
 
     .office-details {
@@ -1892,7 +2174,7 @@
     footer p {
         position: relative;
         top: 14px;
-        left: -20px;
+        left: -10px;
         font-size: 15px;
         
     }
@@ -1928,7 +2210,7 @@
     /*Mobile Menu button display*/
     #mobile-nav-open-btn {
         display: block;
-        left: 670px;
+        left: 650px;
         top: 5px;
         font-size: 30px;
         color: #7065f0
@@ -1939,7 +2221,7 @@
         font-size: 40px;
         position: relative;
         top: 1px;
-        left: 686px;
+        left: 670px;
     }
 
     #mobile-nav a {
@@ -1954,7 +2236,7 @@
     /*Below is the "Reach Us! section" at the navigation bar css*/
     .get_touch_btn a {
         top: 10px;
-        left: 10px;
+        left: -450px;
         text-decoration: none;
     }  
     
@@ -1971,29 +2253,33 @@
 
     /*767 is tablet screen size hence, I am using a medium picture of the home screen*/
     #background_image{
-        background-image: url('../img/home_page/estate_home_screen_medium.png');
+        background-image: url('/img/about_page_images/about_home_image_medium.jpg');
         height: 100%;
         width: 100%;
     }
 
-    .home-screen h1 {
-        position: relative;
-        top: 580px;
-        left: 190px;
-        font-size: 40px;
-        line-height: 55px;
-        width: 550px;
+    #home .row {
+        width: 870px;
     }
 
+    .home-screen {
+        height: 1000px;
+    }
+
+    .home-screen h1 {
+        position: relative;
+        top: 90px;
+        left: 190px;
+        font-size: 40px;
+        width: 710px;
+    }
     .home-screen p {
         position: relative;
-        top: 490px;
+        top: 80px;
         left: 190px;
         font-size: 15px;
-        line-height: 25px;
-        width: 520px;
-        text-align: justify;
     }
+
 
     /* ======================================
     |   |   |   Arrow down which displays only from this mobile view
@@ -2018,70 +2304,141 @@
     }
     /*Arrow down ends here*/
 
-    /*About Estate company*/
-    #about {
-        height: 950px;
+    /*About Team*/
+    #about_team {
+        height: 3100px;
+        margin-top: -200px;
     }
 
-    #about_image .front {
+    #about_team_image .front {
         position: relative;
-        top: -350px;
-        left: 100px;
-        width: 390px;
-        z-index: 1;
+        top: -2120px;
+        left: 305px;
+        width: 370px;
     }
 
-    #about_image .back {
+    #about_team_text {
         position: relative;
-        top: 80px;
-        left: 60px;
-        width: 480px;
+        top: -90px;
+        left: 5px;
+        width: 660px;
     }
 
-    #about_text {
-        position: relative;
-        top: -440px;
-        left: 15px;
-        width: 680px;
-    }
-
-    #about_text h2 {
-        position: relative;
-        top: -490px;
+    #about_team_text h2 {
         font-size: 40px;
         line-height: 50px;
-        width: 450px;
     }
 
-    #about_text p {
-        position: relative;
-        left: -2px;
+    #about_team_text p {
         font-size: 15px;
-        padding-bottom: 0;
-        line-height: 30px;
+        line-height: 35px;
     }
 
-    #about_text p span{
+
+    /* Team photo, text and icons */
+    .team {
         position: relative;
-        top: 20px;
+        top: -800px;
+        padding-top: 0px;
     }
 
-    #about_text .about_btn a {
+    .team h2 {
+        position: relative;
+        left: 12px;
+        padding-bottom: 40px;
+    }
+
+    .team_photo {
+        position: relative;
+        top: -20px;
+        left: 10px;
+        width: 300px;
+        height: 380px;
+        -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        border-radius: 8px;
+        margin-bottom: 40px;
+    }
+
+    .team_photo img {
+        position: relative;
+        top: 5px;
+        height: 300px;
+        width: auto;
+    }
+
+    .team_text h2 {
+        position: relative;
+        top: -40px;
+        left: 10px;
+        font-size: 14px;
+        font-weight: bold;
+        color: #000;
+    }
+
+    .team_photo_text p {
+        position: relative;
+        top: 25px;
+        left: 10px;
         font-size: 13px;
+        color: #7065f0;
+        font-weight: 500;
+    }
+
+    .team_icons {
+        position: relative;
+        top: -66px;
+        left: -10px;
+        font-size: 17px;
+        text-align: right;
+    }
+
+    .team_icons .socials_icons {
+        padding-left: 8px;
+        padding-right: 8px;
+    }
+
+    /*below is the css setup for two pictures in a row to accommodate smaller screens*/
+    #team_2 {
+        position: relative;
+        top: -420px;
+        left: 350px;
+    }
+
+    #team_3 {
+        position: relative;
+        top: -420px;
+    }
+
+    #team_4 {
+        position: relative;
+        top: -840px;
+        left: 350px;
+    }
+
+    #team_5 {
+        position: relative;
+        top: -840px;
+    }
+
+    #team_6 {
+        position: relative;
+        top: -1260px;
+        left: 350px;
     }
     
     /*Estate section*/
 
     #estate {
-        height: 2150px;
+        height: 1500px;
         margin-top: 100px;
     }
 
     #estate_header h2 {
         position: relative;
         top: -60px;
-        left: 10px;
-        width: 762px;
+        left: 5px;
+        width: 670px;
         height: 67px;
         font-size: 40px;
         width: 550px;
@@ -2091,11 +2448,11 @@
     #estate_header p {
         position: relative;
         top: -40px;
-        left: 10px;
+        left: 5px;
         font-size: 15px;
         line-height: 23px;
         text-align: justify;
-        width: 680px;
+        width: 660px;
         padding: 20px 0;
     }
 
@@ -2103,7 +2460,7 @@
         position: relative;
         top: -20px;
         left: -20px;
-        width: 370px;
+        width: 350px;
     }
 
     /*Sold/Available button posiition for estate view 1*/
@@ -2212,8 +2569,8 @@
     /*Estate down button*/
     .estate_header_btn a {
         position: relative;
-        top: 450px;
-        left: 300px;
+        top: 490px;
+        left: 280px;
     }
 
     /*Stats*/
@@ -2229,14 +2586,14 @@
         height: 100px;
         width: 290px;
         top: -20px;
-        left: 250px;
+        left: 220px;
         padding: 20px;
     }
 
     #stats .second_stats {
         height: 100px;
         width: 290px;
-        left: 250px;
+        left: 220px;
         top: 100px;
         padding: 20px;
     }
@@ -2244,7 +2601,7 @@
     #stats .third_stats {
         height: 100px;
         width: 290px;
-        left: 250px;
+        left: 220px;
         top: 220px;
         padding: 20px;
     }
@@ -2272,43 +2629,18 @@
         font-size: 15px;
     }     
 
-    /*Contact us from continental location*/
-    #location {
-        height: 900px;
-    }
-
-    .location_text h2 {
-        font-size: 40px;
-        line-height: 60px;
-        left: -60px;
-    }
-
-    .location_text p {
-        top: -20px;
-        font-size: 15px;
-        left: 60px;
-        width: 580px;
-    }
-
-    #location .location_image {
-        position: relative;
-        width: 1300px;
-        top: -20px;
-        left: -150px;
-    }
-
     /*Contact*/
     
     .contact_logo {
         position: relative;
         width: 150px;
         top: -10px;
-        left: -20px;
+        left: -5px;
     }
 
     .office {
         top: 10px;
-        left: -10px;
+        left: 5px;
     }
 
     .office-details {
@@ -2326,7 +2658,7 @@
     footer p {
         position: relative;
         top: 14px;
-        left: -20px;
+        left: -5px;
         font-size: 15px;
         
     }

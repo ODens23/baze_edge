@@ -1539,7 +1539,7 @@
         /*Home section*/
         .nav {
             position: relative;
-            left: -30px;
+            left: -55px;
             padding: -10px 0;
         }
 
@@ -1566,14 +1566,14 @@
 
         .home-screen h1 {
             top: 490px;
-            left: 160px;
+            left: 180px;
             font-size: 35px;
             width: 500px;
             line-height: 55px;
         }
         .home-screen p {
             top: 390px;
-            left: 160px;
+            left: 180px;
             width: 500px;
             font-size: 14px;
             text-align: justify;
@@ -1589,7 +1589,7 @@
 
         /*About Estate company*/
         #about {
-            margin-top: -300px;
+            margin-top: -650px;
         }
         #about_image .front {
             position: relative;
@@ -1610,7 +1610,7 @@
             position: relative;
             top: -860px;
             left: 400px;
-            width: 350px;
+            width: 330px;
         }
 
         #about_text h2 {
@@ -1634,13 +1634,13 @@
         }
 
         #estate_header h2 {
-            left: -20px;
+            left: -10px;
             font-size: 30px;
         }
         #estate_header p {
             position: relative;
             top: -50px;
-            left: -20px;
+            left: -10px;
             font-size: 14px;
         }
         
@@ -1674,7 +1674,7 @@
         #view_2 {
             position: relative;
             top: -580px;
-            left: 400px;
+            left: 390px;
             width: 100%;
             height: 520px;
             margin-bottom: 60px;
@@ -1735,7 +1735,7 @@
         }
         #view_4 {
             position: relative;
-            left: 450px;
+            left: 440px;
             width: 100%;
             height: 520px;
         }
@@ -1749,7 +1749,7 @@
         #view_6 {
             position: relative;
             top: -460px;
-            left: 450px;
+            left: 440px;
             width: 100%;
             height: 520px;
         }
@@ -1758,7 +1758,7 @@
         .estate_header_btn a {
             position: relative;
             top: 450px;
-            left: 340px;
+            left: 330px;
         }
 
         /*Stats*/
@@ -1838,7 +1838,7 @@
 
         .office {
             top: 10px;
-            left: -20px;
+            left: -10px;
         }
 
         .office-details {
@@ -1856,7 +1856,7 @@
         footer p {
             position: relative;
             top: 14px;
-            left: -20px;
+            left: -10px;
             font-size: 15px;
             
         }
@@ -1892,7 +1892,7 @@
         /*Mobile Menu button display*/
         #mobile-nav-open-btn {
             display: block;
-            left: 670px;
+            left: 650px;
             top: 5px;
             font-size: 30px;
             color: #7065f0
@@ -1903,7 +1903,7 @@
             font-size: 40px;
             position: relative;
             top: 1px;
-            left: 686px;
+            left: 670px;
         }
 
         #mobile-nav a {
@@ -2006,7 +2006,7 @@
             position: relative;
             top: -440px;
             left: 15px;
-            width: 680px;
+            width: 650px;
         }
 
         #about_text h2 {
@@ -2059,7 +2059,7 @@
             font-size: 15px;
             line-height: 23px;
             text-align: justify;
-            width: 680px;
+            width: 650px;
             padding: 20px 0;
         }
 
@@ -2067,7 +2067,7 @@
             position: relative;
             top: -20px;
             left: -20px;
-            width: 370px;
+            width: 350px;
         }
 
         /*Sold/Available button posiition for estate view 1*/
@@ -2135,7 +2135,7 @@
             position: relative;
             top: -80px;
             left: -80px;
-            width: 370px;
+            width: 350px;
         }
 
         /*Sold/Available button posiition for estate view 2*/
@@ -2193,14 +2193,14 @@
             height: 100px;
             width: 290px;
             top: -20px;
-            left: 250px;
+            left: 220px;
             padding: 20px;
         }
 
         #stats .second_stats {
             height: 100px;
             width: 290px;
-            left: 250px;
+            left: 220px;
             top: 100px;
             padding: 20px;
         }
@@ -2208,7 +2208,7 @@
         #stats .third_stats {
             height: 100px;
             width: 290px;
-            left: 250px;
+            left: 220px;
             top: 220px;
             padding: 20px;
         }
@@ -2267,12 +2267,12 @@
             position: relative;
             width: 150px;
             top: -10px;
-            left: -20px;
+            left: -5px;
         }
 
         .office {
             top: 10px;
-            left: -10px;
+            left: -5px;
         }
 
         .office-details {
@@ -2290,7 +2290,7 @@
         footer p {
             position: relative;
             top: 14px;
-            left: -20px;
+            left: -5px;
             font-size: 15px;
             
         }
