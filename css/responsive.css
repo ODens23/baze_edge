@@ -2331,7 +2331,7 @@
     /*Mobile Menu button display*/
     #mobile-nav-open-btn {
         display: block;
-        left: 599px;
+        left: 580px;
         top: 5px;
         font-size: 30px;
         color: #7065f0
@@ -2445,7 +2445,7 @@
         position: relative;
         top: -440px;
         left: 15px;
-        width: 610px;
+        width: 580px;
     }
 
     #about_text h2 {
@@ -2498,7 +2498,7 @@
         font-size: 15px;
         line-height: 23px;
         text-align: justify;
-        width: 610px;
+        width: 580px;
         padding: 20px 0;
     }
 
@@ -2506,7 +2506,7 @@
         position: relative;
         top: -20px;
         left: -20px;
-        width: 340px;
+        width: 320px;
     }
 
     /*Sold/Available button posiition for estate view 1*/
@@ -2574,7 +2574,7 @@
         position: relative;
         top: -80px;
         left: -80px;
-        width: 340px;
+        width: 320px;
     }
 
     /*Sold/Available button posiition for estate view 2*/
@@ -2632,14 +2632,14 @@
         height: 100px;
         width: 290px;
         top: -20px;
-        left: 200px;
+        left: 180px;
         padding: 20px;
     }
 
     #stats .second_stats {
         height: 100px;
         width: 290px;
-        left: 200px;
+        left: 180px;
         top: 100px;
         padding: 20px;
     }
@@ -2647,7 +2647,7 @@
     #stats .third_stats {
         height: 100px;
         width: 290px;
-        left: 200px;
+        left: 180px;
         top: 220px;
         padding: 20px;
     }
@@ -2706,12 +2706,12 @@
         position: relative;
         width: 150px;
         top: -10px;
-        left: -20px;
+        left: -5px;
     }
 
     .office {
         top: 10px;
-        left: -10px;
+        left: 5px;
     }
 
     .office-details {
@@ -2729,7 +2729,7 @@
     footer p {
         position: relative;
         top: 14px;
-        left: -20px;
+        left: 5px;
         font-size: 15px;
         
     }
