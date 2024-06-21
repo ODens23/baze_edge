@@ -76,10 +76,10 @@
 ============================================*/
 /*Extra large screen down to 4k*/
 @media (min-width: 2561px) {
-        /*background image*/
-        #background_image img {
+    /*background image*/
+    #background_image img {
             width: 100%;
-        }
+    }
 
         /* ======================================
         |  Arrow down which displays only from this mobile view

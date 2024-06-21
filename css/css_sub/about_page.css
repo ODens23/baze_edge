@@ -717,8 +717,9 @@ footer p span {
     height: auto;
 }
 
+
 ul.navbar-nav > li > a {
-    font-family: "Raleway", sans-serif;
+    font-family: "Plus Jakarta Sans", "Open Sans";
     color:#fff;
     font-size: 12px;
     font-weight: 400;
