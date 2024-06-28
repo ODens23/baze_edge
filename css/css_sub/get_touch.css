@@ -126,14 +126,6 @@ section {
 color: #7065f0;
 }
 
-.chat_and_btn {
-    position: relative;
-    left: 300px;
-    width: 600px;
-    text-align: left;
-    text-align: justify;
-}
-
 .get_touch_btn {
     margin-top: 40px;
 }
