@@ -83,35 +83,6 @@
         font-size: 200px;
         width:max-content;
     }
-    
-    .intouch_down_text {
-        position: absolute;
-        top: 450px;
-        height: 200px;
-    }
-    
-    .intouch_down_text h2 {
-        width: 500px;
-        text-align: left;
-        font-weight: 700;
-        font-size: 50px;
-    }
-    
-    .chat_and_btn {
-        position: relative;
-        left: 300px;
-        width: 600px;
-        text-align: left;
-        text-align: justify;
-    }
-    
-    .get_touch_btn {
-        margin-top: 40px;
-    }
-    
-    .get_touch_btn a {
-        text-decoration: none;
-    }
 
     /* ======================================
     |  Arrow down which displays only from this mobile view
@@ -126,27 +97,6 @@
         font-size: 25px;
     }
 
-    /*Below is the "Reach Us! section" at the navigation bar css*/
-    .get_touch_btn a {
-        position: relative;
-        top: -3px;
-        left: 10px;
-        text-decoration: none;
-    } 
-
-    /*About company team*/
-    #about_team {
-        padding-top: 150px;
-    }
-
-    #about_team_image .front {
-        position: relative;
-        top: -640px;
-    }
-
-    #about_team_image .back {
-        visibility: hidden;
-    }
 }
 
 /*Large screens*/
@@ -175,13 +125,6 @@
         position: relative;
         left: -75px;
     }
-
-    .intouch_down_text {
-        position: absolute;
-        top: 300px;
-        height: 150px;
-    }
-
 
     /* ======================================
     |  Arrow down which displays only from this mobile view
@@ -241,12 +184,6 @@
         position: absolute;
         top: 300px;
         height: 150px;
-    }
-
-    .chat_and_btn {
-        position: relative;
-        left: 300px;
-        width: 520px;
     }
 
 
@@ -314,12 +251,6 @@
         height: 150px;
     }
 
-    .chat_and_btn {
-        position: relative;
-        left: 250px;
-        width: 520px;
-    }
-
     /* ======================================
     |  Arrow down which displays only from this mobile view
     ========================================= */
@@ -328,7 +259,7 @@
     }
     /*Arrow down ends here*/
 
-    /*QUOTE SECTION*/
+    /*quote section*/
     #quote .vertical-heading h2 {
         font-size: 40px;
         
@@ -393,10 +324,6 @@
     ul.navbar-nav > li > a {
         font-size: 11px;
     }
-
-    .get_touch_btn a {
-        left: -10px;
-    }   
     
     .navbar-brand img {
         width: 100px;
@@ -409,12 +336,6 @@
         height: 150px;
     }
 
-    .chat_and_btn {
-        position: relative;
-        left: 250px;
-        width: 520px;
-    }
-
     /* ======================================
     |  Arrow down which displays only from this mobile view
     ========================================= */
@@ -423,7 +344,7 @@
     }
     /*Arrow down ends here*/
 
-    /*QUOTE SECTION*/
+    /*quote section*/
     #quote .vertical-heading h2 {
         font-size: 35px;
         
@@ -502,35 +423,13 @@
 
     .intouch_down_text {
         position: absolute;
-        left: 20px;
-    }
-
-    .intouch_down_text {
-        position: absolute;
         top: 300px;
         height: 150px;
-    }
-
-    .chat_and_btn {
-        position: relative;
-        top: -20px;
-        left: 185px;
-        width: inherit;
+        left: 20px;
     }
 
     .chat_and_btn p {
-        position: relative;
-        left: 20px;
         font-size: 15px;
-        width: 580px;
-        line-height: 30px;
-        padding: 0;
-    }
-
-    .get_touch_btn {
-        position: relative;
-        left: 145px;
-        width: 120px;
     }
 
     /* ======================================
@@ -541,7 +440,7 @@
     }
     /*Arrow down ends here*/
 
-    /*QUOTE SECTION*/
+    /*quote section*/
     #quote .vertical-heading h2 {
         font-size: 35px;
         
@@ -678,31 +577,8 @@
         left: 10px;
     }
 
-    .intouch_down_text h2 {
-        position: relative;
-        left: -10px;
-    }
-
-    .chat_and_btn {
-        position: relative;
-        top: -20px;
-        left: 185px;
-        width: inherit;
-    }
-
     .chat_and_btn p {
-        position: relative;
-        left: -5px;
         font-size: 14px;
-        width: 540px;
-        line-height: 30px;
-        padding: 0;
-    }
-
-    .get_touch_btn {
-        position: relative;
-        left: 115px;
-        width: 120px;
     }
 
     /* ======================================
@@ -713,7 +589,7 @@
     }
     /*Arrow down ends here*/
 
-    /*QUOTE SECTION*/
+    /*quote section*/
     #quote .vertical-heading h2 {
         font-size: 35px;
         
@@ -878,34 +754,9 @@
         left: 10px;
     }
 
-    .intouch_down_text h2 {
-        position: relative;
-        left: 40px;
-        width: 400px;
-        font-size: 40px;
-        text-align: center;
-    }
-
-    .chat_and_btn {
-        position: relative;
-        top: 20px;
-        left: 50px;
-        width: inherit;
-    }
-
     .chat_and_btn p {
-        position: relative;
-        left: -5px;
         font-size: 15px;
-        width: 540px;
         line-height: 30px;
-        padding: 0;
-    }
-
-    .get_touch_btn {
-        position: relative;
-        left: -15px;
-        width: 140px;
     }
 
     /* ======================================
@@ -915,7 +766,7 @@
         position: absolute;
         left: 50%;
         bottom: 3%;
-        color: #fff;
+        color: #000;
         font-size: 40px;
         width: 32px;
         height: 32px;
@@ -1095,39 +946,14 @@
 
     .intouch_down_text {
         position: absolute;
-        top: 300px;
+        top: 280px;
         height: 150px;
-        left: -10px;
-    }
-
-    .intouch_down_text h2 {
-        position: relative;
-        left: 40px;
-        width: 400px;
-        font-size: 40px;
-        text-align: center;
-    }
-
-    .chat_and_btn {
-        position: relative;
-        top: 20px;
-        left: 50px;
-        width: inherit;
+        left: 20px;
     }
 
     .chat_and_btn p {
-        position: relative;
-        left: -5px;
         font-size: 15px;
-        width: 540px;
         line-height: 30px;
-        padding: 0;
-    }
-
-    .get_touch_btn {
-        position: relative;
-        left: -15px;
-        width: 140px;
     }
 
 /* ======================================
@@ -1137,7 +963,7 @@
     position: absolute;
     left: 50%;
     bottom: 3%;
-    color: #fff;
+    color: #000;
     font-size: 40px;
     width: 32px;
     height: 32px;
@@ -1309,11 +1135,6 @@ footer p {
 }
 
     /*Home section*/
-    #intouch {
-        height: 100%;
-        width: 100%;
-    }
-
     #intouch_homepage h1 {
         position: relative;
         left: -480px;
@@ -1322,39 +1143,13 @@ footer p {
 
     .intouch_down_text {
         position: absolute;
-        top: 300px;
+        top: 280px;
         height: 150px;
-        left: -40px;
+        left: 20px;
     }
-
-    .intouch_down_text h2 {
-        position: relative;
-        left: 40px;
-        width: 400px;
-        font-size: 40px;
-        text-align: center;
-    }
-
-    .chat_and_btn {
-        position: relative;
-        top: 20px;
-        left: 50px;
-        width: inherit;
-    }
-
     .chat_and_btn p {
-        position: relative;
-        left: -5px;
         font-size: 15px;
-        width: 520px;
         line-height: 30px;
-        padding: 0;
-    }
-
-    .get_touch_btn {
-        position: relative;
-        left: -15px;
-        width: 140px;
     }
 
 /* ======================================
@@ -1364,7 +1159,7 @@ footer p {
     position: absolute;
     left: 50%;
     bottom: 3%;
-    color: #fff;
+    color: #000;
     font-size: 40px;
     width: 32px;
     height: 32px;
@@ -1380,7 +1175,7 @@ footer p {
 }
 /*Arrow down ends here*/
 
-    /*QUOTE SECTION*/
+    /*quote section*/
     #quote .vertical-heading h2 {
         font-size: 40px;
         
@@ -1542,48 +1337,24 @@ footer p {
         padding: 5px 0;
     }
 
-    /*Below is the "Reach Us! section" at the navigation bar css*/
-    .get_touch_btn a {
-        top: 10px;
-        left: -450px;
-        text-decoration: none;
-    }  
-
     /*Home section*/
-    #intouch {
-        height: 100%;
-        width: 100%;
-    }
-
     #intouch_homepage h1 {
         position: relative;
         left: -480px;
         font-size: 100px;
     }
 
-    .intouch_down_text h2 {
-        position: relative;
-        top: -80px;
-        left: 10px;
-        width: 300px;
-        font-size: 30px;
-        text-align: center;
+    .intouch_down_text {
+        position: absolute;
+        top: 280px;
+        height: 150px;
+        left: 20px;
+        text-align: justify;
     }
 
     .chat_and_btn p {
-        position: relative;
-        top: -50px;
-        left: -285px;
         font-size: 13px;
-        width: 430px;
         line-height: 30px;
-    }
-
-    .get_touch_btn a {
-        position: relative;
-        top: -50px;
-        left: -290px;
-        width: 200px;
     }
 
     /* ======================================
@@ -1593,7 +1364,7 @@ footer p {
         position: absolute;
         left: 50%;
         bottom: 3%;
-        color: #fff;
+        color: #000;
         font-size: 30px;
         width: 32px;
         height: 32px;
@@ -1773,45 +1544,23 @@ footer p {
     }
 
     /*Home section*/
-    #intouch {
-        height: 100%;
-        width: 100%;
-    }
-
-    .chat_and_btn {
-        position: relative;
-        left: 200px;
-        width: 200px;
-    }
-
     #intouch_homepage h1 {
         position: relative;
         left: -480px;
         font-size: 100px;
     }
 
-    .intouch_down_text h2 {
-        position: relative;
-        top: -80px;
-        left: 5px;
-        width: 300px;
-        font-size: 29px;
-        text-align: center;
+    .intouch_down_text {
+        position: absolute;
+        top: 280px;
+        height: 150px;
+        left: 20px;
     }
 
     .chat_and_btn p {
-        position: relative;
-        top: -50px;
         left: -190px;
         font-size: 13px;
-        width: 360px;
         line-height: 30px;
-    }
-
-    .get_touch_btn a {
-        position: relative;
-        top: -50px;
-        left: -190px;
     }
 
     /* ======================================
@@ -1821,7 +1570,7 @@ footer p {
         position: absolute;
         left: 50%;
         bottom: 3%;
-        color: #fff;
+        color: #000;
         font-size: 30px;
         width: 32px;
         height: 32px;
@@ -1837,7 +1586,7 @@ footer p {
     }
     /*Arrow down ends here*/
 
-    /*QUOTE SECTION*/
+    /*quote section*/
     #quote .vertical-heading h2 {
         position: relative;
         top: 50px;
@@ -1981,7 +1730,7 @@ footer p {
     /*Mobile Menu button display*/
     #mobile-nav-open-btn {
     display: block;
-    left: 320px;
+    left: 315px;
     top: 5px;
     font-size: 25px;
     color: #7065f0
@@ -2004,53 +1753,24 @@ footer p {
     padding: 5px 0;
     }
 
-    /*Below is the "Reach Us! section" at the navigation bar css*/
-    .get_touch_btn a {
-    top: 10px;
-    left: -450px;
-    text-decoration: none;
-    }  
-
     /*Home section*/
-    #home {
-    height: 100%;
-    width: 100%;
-    margin-bottom: 100px;
-    }
-
-    #background_image img { 
-    visibility: hidden;
-    }
-
-    /*481 is extra small screen hence, I am using the small picture of the home screen*/
-    #background_image{
-    background-image: url('/img/about_page_images/about_home_image_small.jpg');
-    height: 100%;
-    width: 100%;
-    }
-
-    #home .row {
-        width: 600px;
-    }
-    
-    .home-screen {
-        height: 1000px;
-    }
-    
-    .home-screen h1 {
+    #intouch_homepage h1 {
         position: relative;
-        top: 90px;
-        left: 180px;
-        font-size: 29px;
-        width: 400px;
+        left: -480px;
+        font-size: 100px;
     }
-    .home-screen p {
-        position: relative;
-        top: 80px;
-        left: 180px;
+
+    .intouch_down_text {
+        position: absolute;
+        top: 280px;
+        height: 150px;
+        left: 20px;
+    }
+
+    .chat_and_btn p {
+        left: -190px;
         font-size: 13px;
-        width: 280px;
-        text-align: justify;
+        line-height: 27px;
     }
 
     /* ======================================
@@ -2060,7 +1780,7 @@ footer p {
     position: absolute;
     left: 50%;
     bottom: 3%;
-    color: #fff;
+    color: #000;
     font-size: 30px;
     width: 32px;
     height: 32px;
@@ -2076,290 +1796,78 @@ footer p {
     }
     /*Arrow down ends here*/
 
-    /*About Team section*/
-    #about_team {
-        height: 4900px;
-    }
-
-    #about_team_image .front {
-        position: relative;
-        top: -1650px;
-        left: -60px;
-        width: 380px;
-        height: 285px;
-        z-index: 1;
-    }
-
-    #about_team_text {
-        position: relative;
-        top: 100px;
-        width: 330px;
-        height: 1050px;
-    }
-
-    #about_team_text h2 {
-        position: relative;
-        top: -300px;
-        font-size: 29px;
-        line-height: 40px;
-        width: 350px;
-    }
-
-    #about_team_text p {
-        font-size: 13px;
-        padding-bottom: 0;
-        line-height: 23px;
+    /*quote section*/
+    #quote {
+        height: 600px;
+        
     }
     
-    /* Team photo, text and icons */
-    .team {
-        position: relative;
-        top: -200px;
-        padding-top: 80px;
+    #quote .content-box-md {
+        height: 600px;
     }
 
-    .team h2 {
+    #quote .vertical-heading h2 {
         position: relative;
-        left: 12px;
-        padding-bottom: 40px;
+        top: 50px;
+        font-size: 29px;
     }
 
-    .team_photo {
+    .vertical-heading p {
+        position: relative;
+        top: -50px;
+        font-size: 13px;
+    }
+
+    /*Send email section*/
+
+    #contact_form {
+        height: 450px;
+    }
+
+    #contact_and_form {
+        position: relative;
+        top: 100px;
+        left: 19px;
+        width: 320px;
+        height: 310px;
+        background: #fff;
+        -webkit-box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.3);
+        box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.3);
+        border-radius: 20px;
+    }
+
+    .contact_section h2 {
+        position: relative;
+        top: 15px;
+        left: 5px;
+        width: 280px;
+        height: 134px;
+        font-size: 29px;
+        line-height: 45px;
+    }
+
+    .contact_section p {
         position: relative;
         top: -20px;
         left: 5px;
-        width: 320px;
-        height: 410px;
-        -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-        border-radius: 8px;
-        margin-bottom: 40px;
+        width: 280px;
+        font-size: 13px;
     }
 
-    .team_photo img {
+    .mail_btn {
         position: relative;
-        top: 5px;
-        height: 320px;
-        width: auto;
+        top: 50px;
+        left: 40px;
     }
 
-    .team_text h2 {
-        position: relative;
-        top: -40px;
-        left: 10px;
+    .mail_btn a {
+        text-decoration: none;
+        padding: 10px 90px;
         font-size: 15px;
-        font-weight: bold;
-        color: #000;
     }
 
-    .team_photo_text p {
-        position: relative;
-        top: 25px;
-        left: 10px;
-        font-size: 14px;
-        color: #7065f0;
-        font-weight: 500;
-    }
-
-    .team_icons {
-        position: relative;
-        top: -66px;
-        left: -10px;
-        font-size: 18px;
-        text-align: right;
-    }
-
-    .team_icons .socials_icons {
-        padding-left: 8px;
-        padding-right: 8px;
-    }
-    /*the below class was added to adjust mobile view for the second row following the following the 12 column rule*/
-    .second_row {
-        position: relative;
-        top: -270px;
-    }
-
-    /*Estate section*/
-
-    #estate {
-    height: 2300px;
-    margin-top: 100px;
-    }
-
-    #estate_header h2 {
-    position: relative;
-    top: -65px;
-    left: -5px;
-    width: 762px;
-    height: 67px;
-    font-size: 30px;
-    width: 300px;
-    line-height: 40px;
-    }
-
-    #estate_header p {
-    position: relative;
-    top: -40px;
-    left: -5px;
-    font-size: 13px;
-    line-height: 23px;
-    text-align: justify;
-    width: 330px;
-    }
-
-    #estate_view_1 {
-    position: relative;
-    left: -10px;
-    top: -20px;
-    width: 1000px;
-    }
-
-    /*Sold/Available button posiition for estate view 1*/
-    #view_1 .image_btn_one a,
-    #view_2 .image_btn_two a,
-    #view_3 .image_btn_three a {
-    position: relative;
-    top: -345px;
-    left: 10px;
-    }
-    /*Sold/Available for estate view 1 ends here*/
-
-    #estate_view_1 img {
-    height: 360px;
-    width: 99%;
-    }
-
-    #view_1 {
-    width: 330px;
-    height: 590px;
-    margin-bottom: 60px;
-    }
-    #view_2 {
-    width: 330px;
-    height: 620px;
-    margin-bottom: 60px;
-    }
-    #view_3 {
-    width: 330px;
-    height: 620px;
-    margin-bottom: 60px;
-    }
-    /*====================================
-    |  |  CSS that affect all section
-    =====================================*/
-    /*housing text for all estate*/
-    .housing_text_below h2 {
-    font-size: 16px;
-    }
-    .housing_text_below p {
-    font-size: 13px;
-    }
-    /*button for all section*/
-    .view_btn a {
-    position: relative;
-    top: 12px;
-    left: 20px;
-    padding: 8px 80px;
-    }
-    /*======ends here================*/
-
-    #estate_view_2 {
-    display: none;
-    position: relative;
-    top: -20px;
-    left: -35px;
-    width: 1000px;
-    }
-
-    /*Sold/Available button posiition for estate view 2*/
-    #view_4 .image_btn_four a,
-    #view_5 .image_btn_five a,
-    #view_6 .image_btn_six a {
-    position: relative;
-    top: -245px;
-    left: 10px;
-    }
-    /*Sold/Available for estate view 2 ends here*/
-
-    #estate_view_2 img {
-    height: 360px;
-    width: 99%;
-    }
-    #view_4 {
-    width: 330px;
-    height: 620px;
-    }
-    #view_5 {
-    width: 330px;
-    height: 620px;
-    }
-    #view_6 {
-    width: 330px;
-    height: 620px;
-    }
-
-    /*Estate down button*/
-    .estate_header_btn a {
-    position: relative;
-    top: 1330px;
-    left: 90px;
-    font-size: 15px;
-    }
-
-    /*Stats*/
-    #stats {
-    height: 850px;
-    }
-
-    #stats .content-box-md {
-    height: 850px;
-    }
-
-    #stats .first_stats {
-    height: 100px;
-    width: 260px;
-    top: -20px;
-    left: 60px;
-    padding: 20px;
-    }
-
-    #stats .second_stats {
-    height: 100px;
-    width: 260px;
-    left: 60px;
-    top: 80px;
-    padding: 20px;
-    }
-
-    #stats .third_stats {
-    height: 100px;
-    width: 260px;
-    left: 60px;
-    top: 180px;
-    padding: 20px;
-    }
-
-    #stats .vertical-heading h2 {
-    font-size: 30px;
-    line-height: 40px;
-    padding-bottom: 10px;
-    }
-
-    #stats .vertical-heading p {
-    font-size: 13px;
-    line-height: 20px;
-    }
-
-    .stats-item i {
-    font-size: 25px;
-    }
-
-    .stats-item h3 {
-    font-size: 25px;
-    }
-
-    .stats-item p {
-    font-size: 12px;
+    #contact_form img {
+    visibility: hidden;
     }    
 
     /*Contact*/
@@ -2462,53 +1970,24 @@ footer p {
     padding: 5px 0;
 }
 
-/*Below is the "Reach Us! section" at the navigation bar css*/
-.get_touch_btn a {
-    top: 10px;
-    left: -450px;
-    text-decoration: none;
-}  
-
-/*Home section*/
-#home {
-    height: 100%;
-    width: 100%;
-    margin-bottom: 100px;
-}
-
-#background_image img {
-    /* display: none; */
-    visibility: hidden;
-}
-
-#background_image{
-    background-image: url('/img/about_page_images/about_home_image_small.jpg');
-    height: 100%;
-    width: 100%;
-}
-
-#home .row {
-    width: 600px;
-}
-
-.home-screen {
-    height: 1000px;
-}
-
-.home-screen h1 {
+    /*Home section*/
+    #intouch_homepage h1 {
     position: relative;
-    top: 90px;
-    left: 180px;
-    font-size: 29px;
-    width: 300px;
+    left: -480px;
+    font-size: 100px;
 }
-.home-screen p {
-    position: relative;
-    top: 80px;
-    left: 180px;
+
+.intouch_down_text {
+    position: absolute;
+    top: 280px;
+    height: 150px;
+    left: 20px;
+}
+
+.chat_and_btn p {
+    left: -190px;
     font-size: 13px;
-    width: 280px;
-    text-align: justify;
+    line-height: 27px;
 }
 
 /* ======================================
@@ -2518,10 +1997,10 @@ footer p {
     position: absolute;
     left: 50%;
     bottom: 3%;
-    color: #fff;
+    color: #000;
     font-size: 30px;
     width: 32px;
-    height: 32px;
+    height: 32px;   
     text-align: center;
     margin-left: -16px;
     z-index: 1;
@@ -2534,292 +2013,79 @@ footer p {
 }
 /*Arrow down ends here*/
 
-    /*About Team section*/
-    #about_team {
-        height: 4900px;
-    }
-
-    #about_team_image .front {
-        position: relative;
-        top: -1650px;
-        left: -60px;
-        width: 380px;
-        height: 285px;
-        z-index: 1;
-    }
-
-    #about_team_text {
-        position: relative;
-        top: 100px;
-        width: 330px;
-        height: 1050px;
-    }
-
-    #about_team_text h2 {
-        position: relative;
-        top: -300px;
-        font-size: 30px;
-        line-height: 40px;
-        width: 350px;
-    }
-
-    #about_team_text p {
-        font-size: 13px;
-        padding-bottom: 0;
-        line-height: 23px;
+    /*quote section*/
+    #quote {
+        height: 600px;
+        
     }
     
-    /* Team photo, text and icons */
-    .team {
-        position: relative;
-        top: -200px;
-        padding-top: 80px;
+    #quote .content-box-md {
+        height: 600px;
     }
 
-    .team h2 {
+    #quote .vertical-heading h2 {
         position: relative;
-        left: 12px;
-        padding-bottom: 40px;
+        top: 50px;
+        font-size: 29px;
     }
 
-    .team_photo {
+    .vertical-heading p {
+        position: relative;
+        top: -50px;
+        font-size: 13px;
+    }
+
+    /*Send email section*/
+
+    #contact_form {
+        height: 450px;
+    }
+
+    #contact_and_form {
+        position: relative;
+        top: 100px;
+        left: 19px;
+        width: 320px;
+        height: 310px;
+        background: #fff;
+        -webkit-box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.3);
+        box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.3);
+        border-radius: 20px;
+    }
+
+    .contact_section h2 {
+        position: relative;
+        top: 15px;
+        left: 5px;
+        width: 280px;
+        height: 134px;
+        font-size: 29px;
+        line-height: 45px;
+    }
+
+    .contact_section p {
         position: relative;
         top: -20px;
         left: 5px;
-        width: 320px;
-        height: 410px;
-        -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-        border-radius: 8px;
-        margin-bottom: 40px;
+        width: 280px;
+        font-size: 13px;
     }
 
-    .team_photo img {
+    .mail_btn {
         position: relative;
-        top: 5px;
-        height: 320px;
-        width: auto;
+        top: 50px;
+        left: 40px;
     }
 
-    .team_text h2 {
-        position: relative;
-        top: -40px;
-        left: 10px;
+    .mail_btn a {
+        text-decoration: none;
+        padding: 10px 90px;
         font-size: 15px;
-        font-weight: bold;
-        color: #000;
     }
 
-    .team_photo_text p {
-        position: relative;
-        top: 25px;
-        left: 10px;
-        font-size: 14px;
-        color: #7065f0;
-        font-weight: 500;
-    }
-
-    .team_icons {
-        position: relative;
-        top: -66px;
-        left: -10px;
-        font-size: 18px;
-        text-align: right;
-    }
-
-    .team_icons .socials_icons {
-        padding-left: 8px;
-        padding-right: 8px;
-    }
-    /*the below class was added to adjust mobile view for the second row following the following the 12 column rule*/
-    .second_row {
-        position: relative;
-        top: -270px;
-    }
-
-    /*Estate section*/
-
-#estate {
-    height: 2100px;
-    margin-top: 100px;
-}
-
-#estate_header h2 {
-    position: relative;
-    top: -65px;
-    left: -5px;
-    width: 762px;
-    height: 67px;
-    font-size: 30px;
-    width: 300px;
-    line-height: 40px;
-}
-
-#estate_header p {
-    position: relative;
-    top: -40px;
-    left: -5px;
-    font-size: 13px;
-    line-height: 23px;
-    text-align: justify;
-    width: 330px;
-}
-
-#estate_view_1 {
-    position: relative;
-    left: -18px;
-    top: -20px;
-    width: 1000px;
-}
-
-/*Sold/Available button posiition for estate view 1*/
-#view_1 .image_btn_one a,
-#view_2 .image_btn_two a,
-#view_3 .image_btn_three a {
-    position: relative;
-    top: -245px;
-    left: 10px;
-}
-/*Sold/Available for estate view 1 ends here*/
-
-#estate_view_1 img {
-    height: 260px;
-    width: 99%;
-}
-
-#view_1 {
-    width: 320px;
-    height: 490px;
-    margin-bottom: 60px;
-}
-#view_2 {
-    width: 320px;
-    height: 520px;
-    margin-bottom: 60px;
-}
-#view_3 {
-    width: 320px;
-    height: 520px;
-    margin-bottom: 60px;
-}
-/*====================================
-|  |  CSS that affect all section
-=====================================*/
-/*housing text for all estate*/
-.housing_text_below h2 {
-    font-size: 16px;
-}
-.housing_text_below p {
-    font-size: 13px;
-}
-/*button for all section*/
-.view_btn a {
-    position: relative;
-    top: 12px;
-    left: 20px;
-    padding: 8px 80px;
-}
-/*======ends here================*/
-
-#estate_view_2 {
-    display: none;
-    position: relative;
-    top: -20px;
-    left: -35px;
-    width: 1000px;
-}
-
-/*Sold/Available button posiition for estate view 2*/
-#view_4 .image_btn_four a,
-#view_5 .image_btn_five a,
-#view_6 .image_btn_six a {
-    position: relative;
-    top: -245px;
-    left: 10px;
-}
-/*Sold/Available for estate view 2 ends here*/
-
-#estate_view_2 img {
-    height: 260px;
-    width: 99%;
-}
-#view_4 {
-    width: 320px;
-    height: 460px;
-}
-#view_5 {
-    width: 320px;
-    height: 460px;
-}
-#view_6 {
-    width: 320px;
-    height: 460px;
-}
-
-/*Estate down button*/
-.estate_header_btn a {
-    position: relative;
-    top: 1100px;
-    left: 80px;
-    font-size: 15px;
-}
-
-/*Stats*/
-#stats {
-    height: 850px;
-}
-
-#stats .content-box-md {
-    height: 850px;
-}
-
-#stats .first_stats {
-    height: 100px;
-    width: 260px;
-    top: -20px;
-    left: 40px;
-    padding: 20px;
-}
-
-#stats .second_stats {
-    height: 100px;
-    width: 260px;
-    left: 40px;
-    top: 80px;
-    padding: 20px;
-}
-
-#stats .third_stats {
-    height: 100px;
-    width: 260px;
-    left: 40px;
-    top: 180px;
-    padding: 20px;
-}
-
-#stats .vertical-heading h2 {
-    font-size: 30px;
-    line-height: 40px;
-    padding-bottom: 10px;
-}
-
-#stats .vertical-heading p {
-    font-size: 13px;
-    line-height: 20px;
-}
-
-.stats-item i {
-    font-size: 25px;
-}
-
-.stats-item h3 {
-    font-size: 25px;
-}
-
-.stats-item p {
-    font-size: 12px;
-}    
-
+    #contact_form img {
+    visibility: hidden;
+    }    
 
 /*Contact*/
 #contact {
@@ -2920,58 +2186,24 @@ footer p {
     }
 
     /*Home section*/
-    #intouch {
-        height: 760px;
-    }
     #intouch_homepage h1 {
-        position: relative;
-        width: 1768px;
-        height: 230px;
-        top: -70px;
-        left: -590px;
-        font-family: Plus Jakarta Sans;
-        font-size: 80px;
-        font-weight: 700;
-        line-height: 229.53px;
-        text-align: center;
-    }
-    
-    #intouch_homepage span {
-        color: #7065f0;
-    }
-    
-    .intouch_down_text {
-        position: absolute;
-        top: 320px;
-        height: 150px;
-    }
-    
-    .intouch_down_text h2 {
-        width: 300px;
-        text-align: left;
-        font-weight: 700;
-    }
-    
-    .intouch_down_text span {
-    color: #7065f0;
-    }
-    
-    .chat_and_btn {
-        position: relative;
-        left: 5px;
-        width: 330px;
-        text-align: left;
-        text-align: justify;
-        padding-top: 30px;
-    }
-    
-    .get_touch_btn {
-        margin-top: 40px;
-    }
-    
-    .get_touch_btn a {
-        text-decoration: none;
-    }
+    position: relative;
+    left: -480px;
+    font-size: 100px;
+}
+
+.intouch_down_text {
+    position: absolute;
+    top: 280px;
+    height: 150px;
+    left: 20px;
+}
+
+.chat_and_btn p {
+    left: -190px;
+    font-size: 13px;
+    line-height: 27px;
+}
 
         /* ======================================
     |   |   |   Arrow down which displays only from this mobile view
@@ -2987,6 +2219,7 @@ footer p {
         text-align: center;
         margin-left: -16px;
         z-index: 1;
+        visibility: visible;
     }
 
     #arrow-down:hover,
@@ -2995,441 +2228,79 @@ footer p {
     }
     /*Arrow down ends here*/
 
-    /*Keep "in touch" section*/
+    /*quote section*/
     #quote {
-        height: 500px;
+        height: 600px;
+        
     }
-
+    
     #quote .content-box-md {
-        height: 500px;
-    }
-    #quote .content-box-md {
-        height: 500px;
-        background: rgba(0, 0, 0, 0.5)
+        height: 600px;
     }
 
     #quote .vertical-heading h2 {
         position: relative;
-        top: 10px;
-        color: #fff;
-        font-size: 30px;
-        font-weight: 800;
-        text-align: center;
-        line-height: 50px;
-        font-family: Plus Jakarta Sans;
-    }
-    
-    .vertical-heading p {
-        padding-top: 60px;
-        color: #fff;
-        text-align: center;
-        font-size: 18px;
-        font-family: Plus Jakarta Sans;
+        top: 50px;
+        font-size: 29px;
     }
 
-    /*Contact and form section*/
-    #contact_form {
-        height: 740px;
+    .vertical-heading p {
+        position: relative;
+        top: -50px;
+        font-size: 13px;
     }
-    
-    #contact_and_form img {
-        visibility: hidden;
+
+    /*Send email section*/
+
+    #contact_form {
+        height: 450px;
     }
 
     #contact_and_form {
         position: relative;
-        top: 40px;
-        left: -320px;
-        width: 330px;
-        height: 134px;
+        top: 100px;
+        left: 19px;
+        width: 310px;
+        height: 310px;
+        background: #fff;
+        -webkit-box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.3);
+        box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.3);
+        border-radius: 20px;
     }
 
     .contact_section h2 {
         position: relative;
-        top: 20px;
-        left: 320px;
-        width: 330px;
-        font-family: Plus Jakarta Sans;
-        font-size: 30px;
-        line-height: 50px;
+        top: 15px;
+        left: 1px;
+        width: 280px;
+        height: 134px;
+        font-size: 29px;
+        line-height: 45px;
     }
 
     .contact_section p {
         position: relative;
-        top: -10px;
-        left: 310px;
-        width: 330px;
-        font-size: 13px;
-        text-align: justify;
-    }
-
-    .contact_form {
-        position: relative;
-        top: 10px;
-        left: 330px;
-        width: 330px;
-        padding: 20px;
-        -webkit-box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
-        box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
-        border-radius: 16px;
-        border: 1px 0px 0px 0px;
-    }
-
-    .contact_form .row {
-        width: 320px;
-    }
-
-    .contact_form form textarea.form-control {
-        min-height: 160px;
-    }
-
-
-
-
-
-
-
-
-
-
-    /*About company team*/
-    #about_team {
-        height: 4800px;
-    }
-
-    #about_team_image .front {
-        position: relative;
-        top: -1510px;
-        left: -90px;
-        width: 380px;
-        height: 285px;
-        z-index: 1;
-    }
-
-    #about_team_image .back {
-        visibility: hidden;
-        /* position: relative;
-        top: -1100px;
-        left: -10px;
-        width: 310px;
-        height: 314px; */
-    }
-
-    #about_team_text {
-        position: relative;
-        top: 240px;
-        width: 330px;
-        height: 1050px;
-    }
-
-    #about_team_text h2 {
-        position: relative;
-        top: -300px;
-        font-size: 30px;
-        line-height: 40px;
-        width: 350px;
-    }
-
-    #about_team_text p {
-        font-size: 13px;
-        padding-bottom: 0;
-        line-height: 23px;
-    }
-    
-    /* Team photo, text and icons */
-    .team {
-        padding-top: 80px;
-    }
-
-    .team h2 {
-        position: relative;
-        left: 12px;
-        padding-bottom: 40px;
-    }
-
-    .team_photo {
-        position: relative;
         top: -20px;
-        left: 5px;
-        width: 300px;
-        height: 380px;
-        -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-        border-radius: 8px;
-        margin-bottom: 40px;
-    }
-
-    .team_photo img {
-        position: relative;
-        top: 5px;
-        height: 300px;
-        width: auto;
-    }
-
-    .team_text h2 {
-        position: relative;
-        top: -40px;
-        left: 10px;
-        font-size: 14px;
-        font-weight: bold;
-        color: #000;
-    }
-
-    .team_photo_text p {
-        position: relative;
-        top: 25px;
-        left: 10px;
+        left: 1px;
+        width: 280px;
         font-size: 13px;
-        color: #7065f0;
-        font-weight: 500;
     }
 
-    .team_icons {
+    .mail_btn {
         position: relative;
-        top: -66px;
-        left: -10px;
-        font-size: 17px;
-        text-align: right;
-    }
-
-    .team_icons .socials_icons {
-        padding-left: 8px;
-        padding-right: 8px;
-    }
-    /*the below class was added to adjust mobile view for the second row following the following the 12 column rule*/
-    .second_row {
-        position: relative;
-        top: -80px;
-    }
-    
-    /*Stats*/
-    #stats {
-        height: 850px;
-    }
-
-    #stats .content-box-md {
-        height: 850px;
-    }
-
-    #stats .first_stats {
-        height: 100px;
-        width: 260px;
-        top: -20px;
+        top: 50px;
         left: 40px;
-        padding: 20px;
     }
 
-    #stats .second_stats {
-        height: 100px;
-        width: 260px;
-        left: 40px;
-        top: 80px;
-        padding: 20px;
+    .mail_btn a {
+        text-decoration: none;
+        padding: 10px 90px;
+        font-size: 15px;
     }
 
-    #stats .third_stats {
-        height: 100px;
-        width: 260px;
-        left: 40px;
-        top: 180px;
-        padding: 20px;
-    }
-
-    #stats .vertical-heading h2 {
-        font-size: 30px;
-        line-height: 40px;
-        padding-bottom: 10px;
-    }
-    
-    #stats .vertical-heading p {
-        font-size: 13px;
-        line-height: 20px;
-    }
-
-    .stats-item i {
-        font-size: 25px;
-    }
-    
-    .stats-item h3 {
-        font-size: 25px;
-    }
-    
-    .stats-item p {
-        font-size: 12px;
+    #contact_form img {
+    visibility: hidden;
     }    
-
-    
-    /*Estate section*/
-
-    #estate {
-        height: 2100px;
-        margin-top: 100px;
-    }
-
-    #estate_header h2 {
-        position: relative;
-        top: -65px;
-        left: -5px;
-        width: 762px;
-        height: 67px;
-        font-size: 30px;
-        width: 300px;
-        line-height: 40px;
-    }
-
-    #estate_header p {
-        position: relative;
-        top: -40px;
-        left: -5px;
-        font-size: 13px;
-        line-height: 23px;
-        text-align: justify;
-        width: 330px;
-    }
-
-    .estate_header_btn a {
-        position: relative;
-        top: -35px;
-        left: 145px;
-        font-size: 11px;
-    }
-
-    #estate_view_1 {
-        position: relative;
-        left: -18px;
-        top: -20px;
-        width: 1000px;
-    }
-
-    /*Sold/Available button posiition for estate view 1*/
-    #view_1 .image_btn_one a,
-    #view_2 .image_btn_two a,
-    #view_3 .image_btn_three a {
-        position: relative;
-        top: -245px;
-        left: 10px;
-    }
-    /*Sold/Available for estate view 1 ends here*/
-
-    #estate_view_1 img {
-        height: 260px;
-        width: 315px;
-    }
-
-    #view_1 {
-        width: 320px;
-        height: 490px;
-        margin-bottom: 60px;
-    }
-    #view_2 {
-        width: 320px;
-        height: 520px;
-        margin-bottom: 60px;
-    }
-    #view_3 {
-        width: 320px;
-        height: 520px;
-        margin-bottom: 60px;
-    }
-    /*====================================
-    |  |  CSS that affect all section
-    =====================================*/
-    /*housing text for all estate*/
-    .housing_text_below h2 {
-        font-size: 16px;
-    }
-    .housing_text_below p {
-        font-size: 13px;
-    }
-    /*button for all section*/
-    .view_btn a {
-        position: relative;
-        top: 12px;
-        left: 20px;
-        padding: 8px 80px;
-    }
-    /*======ends here================*/
-
-    #estate_view_2 {
-        display: none;
-        position: relative;
-        top: -20px;
-        left: -35px;
-        width: 1000px;
-    }
-
-    /*Sold/Available button posiition for estate view 2*/
-    #view_4 .image_btn_four a,
-    #view_5 .image_btn_five a,
-    #view_6 .image_btn_six a {
-        position: relative;
-        top: -245px;
-        left: 10px;
-    }
-    /*Sold/Available for estate view 2 ends here*/
-
-    #estate_view_2 img {
-        height: 260px;
-        width: 315px;
-    }
-    #view_4 {
-        width: 320px;
-        height: 460px;
-    }
-    #view_5 {
-        width: 320px;
-        height: 460px;
-    }
-    #view_6 {
-        width: 320px;
-        height: 460px;
-    }
-
-
-    /*Contact us from continental location*/
-    #location {
-        height: 800px;
-    }
-    
-    .location_text h2 {
-        position: relative;
-        left: -10px;
-        top: -100px;
-        font-size: 30px;
-        line-height: 40px;
-        width: 350px;
-    }
-    
-    .location_text p {
-        position: relative;
-        left: -5px;
-        top: -90px;
-        font-size: 13px;
-        width: 330px;
-        line-height: 25px;
-    }
-
-    #location .location_image {
-        position: relative;
-        width: 1100px;
-        top: -80px;
-        left: -300px;
-    }
-
-    .location_tag .location_2 {
-        position: relative;
-        top: 440px;
-        left: 100px;
-        z-index: 1;
-    }
-
-    .location_tag .location_3 {
-        position: relative;
-        top: 520px;
-        left: 120px;
-        z-index: 1;
-    }
-
 
     /*Contact*/
     #contact {
