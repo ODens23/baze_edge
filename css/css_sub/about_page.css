@@ -65,11 +65,11 @@ section {
 
 #status {
     background-repeat: no-repeat;
-    height: 70px;
-    width: 70px;
+    height: 200px;
+    width: 200px;
     position: absolute;
-    top: 50%;
-    left: 50%;
+    top: 40%;
+    left: 40%;
     margin-left: -35px;
     margin-top: -35px;
     background-image: url("/img/about_page_images/preloader/preloader.gif")
