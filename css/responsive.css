@@ -3447,7 +3447,7 @@
         }
         #view_4 {
             width: 420px;
-            height: 590px;
+            height: 610px;
             margin-bottom: 60px;
         }
         #view_5 {
@@ -3895,7 +3895,7 @@
         }
         #view_4 {
             width: 390px;
-            height: 590px;
+            height: 610px;
             margin-bottom: 60px;
         }
         #view_5 {
@@ -4343,7 +4343,7 @@
 }
 #view_4 {
     width: 330px;
-    height: 590px;
+    height: 610px;
     margin-bottom: 60px;
 }
 #view_5 {
@@ -4353,14 +4353,14 @@
 }
 #view_6 {
     width: 330px;
-    height: 590px;
+    height: 610px;
     margin-bottom: 60px;
 }
 
 /*Estate down button*/
 .estate_header_btn a {
     position: relative;
-    top: 2650px;
+    top: 2660px;
     left: 90px;
     font-size: 15px;
 }
@@ -4791,7 +4791,7 @@ footer p {
     }
     #view_4 {
         width: 320px;
-        height: 490px;
+        height: 510px;
         margin-bottom: 60px;
     }
     #view_5 {
@@ -4801,14 +4801,14 @@ footer p {
     }
     #view_6 {
         width: 320px;
-        height: 490px;
+        height: 510px;
         margin-bottom: 60px;
     }
 
     /*Estate down button*/
     .estate_header_btn a {
         position: relative;
-        top: 2060px;
+        top: 2090px;
         left: 80px;
         font-size: 15px;
     }
@@ -5239,7 +5239,7 @@ footer p {
         }
         #view_4 {
             width: 320px;
-            height: 490px;
+            height: 510px;
             margin-bottom: 60px;
         }
         #view_5 {
@@ -5249,14 +5249,14 @@ footer p {
         }
         #view_6 {
             width: 320px;
-            height: 490px;
+            height: 510px;
             margin-bottom: 60px;
         }
 
         /*Estate down button*/
         .estate_header_btn a {
             position: relative;
-            top: 2060px;
+            top: 2080px;
             left: 80px;
             font-size: 15px;
         }
