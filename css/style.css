@@ -334,11 +334,12 @@ section {
 
 #estate_view_2 img {
     height: 300px;
+    width: 414px;
 }
 
 #view_4 {
     width: 421px;
-    height: 510px;
+    height: 580px;
     border: 2px solid #f2f2f2;
     border-radius: 12px;
     background-color: #f4f4f4;
@@ -346,7 +347,7 @@ section {
 
 #view_5 {
     width: 421px;
-    height: 510px;
+    height: 580px;
     border: 2px solid #f2f2f2;
     border-radius: 12px;
     background-color: #f4f4f4;
@@ -354,7 +355,7 @@ section {
 
 #view_6 {
     width: 421px;
-    height: 510px;
+    height: 580px;
     border: 2px solid #f2f2f2;
     border-radius: 12px;
     background-color: #f4f4f4;

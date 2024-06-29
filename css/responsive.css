@@ -278,7 +278,7 @@
         /*View button for estate 2 section because of movement levels*/
         #estate_view_2 .view_btn a {
             position: relative;
-            top: 60px;
+            top: 5px;
         }
         /*======ends here================*/
     
@@ -418,7 +418,7 @@
         /*View button for estate 2 section because of movement levels*/
         #estate_view_2 .view_btn a {
             position: relative;
-            top: 60px;
+            top: 5px;
         }
         /*======ends here================*/
     
@@ -441,7 +441,7 @@
     
         #estate_view_2 img {
             height: 260px;
-            width: 100%;
+            width: 99%;
         }
         #view_4 {
             width: 100%;
@@ -619,7 +619,7 @@
         /*View button for estate 2 section because of movement levels*/
         #estate_view_2 .view_btn a {
             position: relative;
-            top: 60px;
+            top: 5px;
         }
         /*======ends here================*/
     
@@ -641,7 +641,7 @@
     
         #estate_view_2 img {
             height: 260px;
-            width: 100%;
+            width: 99%;
         }
         #view_4 {
             width: 100%;
@@ -837,7 +837,7 @@
         /*View button for estate 2 section because of movement levels*/
         #estate_view_2 .view_btn a {
             position: relative;
-            top: 60px;
+            top: 5px;
         }
         /*======ends here================*/
     
@@ -860,7 +860,7 @@
     
         #estate_view_2 img {
             height: 260px;
-            width: 100%;
+            width: 99%;
         }
         #view_4 {
             width: 100%;
@@ -1081,7 +1081,7 @@
         /*View button for estate 2 section because of movement levels*/
         #estate_view_2 .view_btn a {
             position: relative;
-            top: 60px;
+            top: 5px;
         }
         /*======ends here================*/
 
@@ -1104,7 +1104,7 @@
 
         #estate_view_2 img {
             height: 260px;
-            width: 100%;
+            width: 99%;
         }
         #view_4 {
             width: 100%;
@@ -1375,7 +1375,7 @@
         /*View button for estate 2 section because of movement levels*/
         #estate_view_2 .view_btn a {
             position: relative;
-            top: 60px;
+            top: 5px;
         }
         /*======ends here================*/
 
@@ -1398,7 +1398,7 @@
 
         #estate_view_2 img {
             height: 260px;
-            width: 100%;
+            width: 99%;
         }
         #view_4 {
             position: relative;
@@ -1708,7 +1708,7 @@
         /*View button for estate 2 section because of movement levels*/
         #estate_view_2 .view_btn a {
             position: relative;
-            top: 60px;
+            top: 5px;
         }
         /*======ends here================*/
 
@@ -1731,7 +1731,7 @@
 
         #estate_view_2 img {
             height: 260px;
-            width: 100%;
+            width: 99%;
         }
         #view_4 {
             position: relative;
@@ -2127,7 +2127,7 @@
         /*View button for estate 2 section because of movement levels*/
         #estate_view_2 .view_btn a {
             position: relative;
-            top: 60px;
+            top: 5px;
         }
         /*======ends here================*/
 
@@ -2566,7 +2566,7 @@
     /*View button for estate 2 section because of movement levels*/
     #estate_view_2 .view_btn a {
         position: relative;
-        top: 60px;
+        top: 5px;
     }
     /*======ends here================*/
 
@@ -2915,7 +2915,7 @@
     /*Estate section*/
 
     #estate {
-        height: 2300px;
+        height: 4300px;
         margin-top: 100px;
     }
 
@@ -2945,7 +2945,7 @@
         position: relative;
         left: 10px;
         top: -20px;
-        width: 100px;
+        width: 320px;
     }
 
     /*Sold/Available button posiition for estate view 1*/
@@ -2998,11 +2998,10 @@
     /*======ends here================*/
 
     #estate_view_2 {
-        display: none;
         position: relative;
-        top: -20px;
-        left: -35px;
-        width: 1000px;
+        top: 1260px;
+        left: 10px;
+        width: 320px;
     }
 
     /*Sold/Available button posiition for estate view 2*/
@@ -3010,7 +3009,7 @@
     #view_5 .image_btn_five a,
     #view_6 .image_btn_six a {
         position: relative;
-        top: -245px;
+        top: -330px;
         left: 10px;
     }
     /*Sold/Available for estate view 2 ends here*/
@@ -3022,20 +3021,23 @@
     #view_4 {
         width: 500px;
         height: 580px;
+        margin-bottom: 60px;
     }
     #view_5 {
         width: 500px;
         height: 580px;
+        margin-bottom: 60px;
     }
     #view_6 {
         width: 500px;
         height: 580px;
+        margin-bottom: 60px;
     }
 
     /*Estate down button*/
     .estate_header_btn a {
         position: relative;
-        top: 1160px;
+        top: 2560px;
         left: 200px;
     }
 
@@ -3341,7 +3343,7 @@
         /*Estate section*/
 
         #estate {
-            height: 2300px;
+            height: 4300px;
             margin-top: 100px;
         }
 
@@ -3423,10 +3425,9 @@
         /*======ends here================*/
 
         #estate_view_2 {
-            display: none;
             position: relative;
-            top: -20px;
-            left: -35px;
+            top: 1300px;
+            left: 10px;
             width: 1000px;
         }
 
@@ -3435,32 +3436,35 @@
         #view_5 .image_btn_five a,
         #view_6 .image_btn_six a {
             position: relative;
-            top: -245px;
+            top: -345px;
             left: 10px;
         }
         /*Sold/Available for estate view 2 ends here*/
 
         #estate_view_2 img {
-            height: 260px;
+            height: 360px;
             width: 99%;
         }
         #view_4 {
-            width: 320px;
-            height: 460px;
+            width: 420px;
+            height: 590px;
+            margin-bottom: 60px;
         }
         #view_5 {
-            width: 320px;
-            height: 460px;
+            width: 420px;
+            height: 590px;
+            margin-bottom: 60px;
         }
         #view_6 {
-            width: 320px;
-            height: 460px;
+            width: 420px;
+            height: 590px;
+            margin-bottom: 60px;
         }
 
         /*Estate down button*/
         .estate_header_btn a {
             position: relative;
-            top: 1200px;
+            top: 2600px;
             left: 150px;
             font-size: 15px;
         }
@@ -3787,7 +3791,7 @@
         /*Estate section*/
 
         #estate {
-            height: 2400px;
+            height: 4300px;
             margin-top: 100px;
         }
 
@@ -3869,10 +3873,9 @@
         /*======ends here================*/
 
         #estate_view_2 {
-            display: none;
             position: relative;
-            top: -20px;
-            left: -35px;
+            top: 1360px;
+            left: -20px;
             width: 1000px;
         }
 
@@ -3881,7 +3884,7 @@
         #view_5 .image_btn_five a,
         #view_6 .image_btn_six a {
             position: relative;
-            top: -245px;
+            top: -345px;
             left: 10px;
         }
         /*Sold/Available for estate view 2 ends here*/
@@ -3892,21 +3895,24 @@
         }
         #view_4 {
             width: 390px;
-            height: 620px;
+            height: 590px;
+            margin-bottom: 60px;
         }
         #view_5 {
             width: 390px;
-            height: 620px;
+            height: 590px;
+            margin-bottom: 60px;
         }
         #view_6 {
             width: 390px;
-            height: 620px;
+            height: 590px;
+            margin-bottom: 60px;
         }
 
         /*Estate down button*/
         .estate_header_btn a {
             position: relative;
-            top: 1300px;
+            top: 2640px;
             left: 120px;
             font-size: 15px;
         }
@@ -4233,7 +4239,7 @@
 /*Estate section*/
 
 #estate {
-    height: 2400px;
+    height: 4300px;
     margin-top: 100px;
 }
 
@@ -4315,10 +4321,9 @@
 /*======ends here================*/
 
 #estate_view_2 {
-    display: none;
     position: relative;
-    top: -20px;
-    left: -35px;
+    top: 1360px;
+    left: -25px;
     width: 1000px;
 }
 
@@ -4327,7 +4332,7 @@
 #view_5 .image_btn_five a,
 #view_6 .image_btn_six a {
     position: relative;
-    top: -245px;
+    top: -345px;
     left: 10px;
 }
 /*Sold/Available for estate view 2 ends here*/
@@ -4338,21 +4343,24 @@
 }
 #view_4 {
     width: 330px;
-    height: 620px;
+    height: 590px;
+    margin-bottom: 60px;
 }
 #view_5 {
     width: 330px;
-    height: 620px;
+    height: 590px;
+    margin-bottom: 60px;
 }
 #view_6 {
     width: 330px;
-    height: 620px;
+    height: 590px;
+    margin-bottom: 60px;
 }
 
 /*Estate down button*/
 .estate_header_btn a {
     position: relative;
-    top: 1280px;
+    top: 2650px;
     left: 90px;
     font-size: 15px;
 }
@@ -4679,7 +4687,7 @@ footer p {
         /*Estate section*/
 
     #estate {
-        height: 2100px;
+        height: 3800px;
         margin-top: 100px;
     }
 
@@ -4761,10 +4769,9 @@ footer p {
     /*======ends here================*/
 
     #estate_view_2 {
-        display: none;
         position: relative;
-        top: -20px;
-        left: -35px;
+        top: 1050px;
+        left: -20px;
         width: 1000px;
     }
 
@@ -4784,21 +4791,24 @@ footer p {
     }
     #view_4 {
         width: 320px;
-        height: 460px;
+        height: 490px;
+        margin-bottom: 60px;
     }
     #view_5 {
         width: 320px;
-        height: 460px;
+        height: 490px;
+        margin-bottom: 60px;
     }
     #view_6 {
         width: 320px;
-        height: 460px;
+        height: 490px;
+        margin-bottom: 60px;
     }
 
     /*Estate down button*/
     .estate_header_btn a {
         position: relative;
-        top: 990px;
+        top: 2060px;
         left: 80px;
         font-size: 15px;
     }
@@ -5125,7 +5135,7 @@ footer p {
             /*Estate section*/
 
         #estate {
-            height: 2100px;
+            height: 3750px;
             margin-top: 100px;
         }
 
@@ -5207,10 +5217,9 @@ footer p {
         /*======ends here================*/
 
         #estate_view_2 {
-            display: none;
             position: relative;
-            top: -20px;
-            left: -35px;
+            top: 1050px;
+            left: -20px;
             width: 1000px;
         }
 
@@ -5230,21 +5239,24 @@ footer p {
         }
         #view_4 {
             width: 320px;
-            height: 460px;
+            height: 490px;
+            margin-bottom: 60px;
         }
         #view_5 {
             width: 320px;
-            height: 460px;
+            height: 490px;
+            margin-bottom: 60px;
         }
         #view_6 {
             width: 320px;
-            height: 460px;
+            height: 490px;
+            margin-bottom: 60px;
         }
 
         /*Estate down button*/
         .estate_header_btn a {
             position: relative;
-            top: 990px;
+            top: 2060px;
             left: 80px;
             font-size: 15px;
         }
