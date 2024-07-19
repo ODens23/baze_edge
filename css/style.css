@@ -4,13 +4,12 @@
     Fonts: Plus Jakarta Sans and Open Sans (and default 'san serif')
     ------------------------------------------------------
     Colors:
-        Blue Lotus:	    #7065f0
-        Viridian:		#3D7A5B
+        Chartreuse:	    #96F50F
+        Stratos:		#000038
         White:          #fff   
         White Smoke:	#f4f4f4
         Black:			#000
         Grey:			#212226
-        Sheen Green     #A6E029
         Yellow Green colours    #41B00A
 
     ====================================== */
@@ -400,7 +399,7 @@ section {
 }
 
 #stats .vertical-heading h2 span {
-    color: #7065f0;
+    color: #96F50F;
 }
 
 #stats .vertical-heading p {
@@ -557,7 +556,7 @@ section {
 
 .office {
     position: relative;
-    top: -30px;
+    top: -40px;
     left: -40px;
 }
 .office-details {
@@ -685,8 +684,8 @@ footer p span {
 .navbar-brand img {
     position: relative;
     left: 20px;
-    top: -15px;
-    width: 120px;
+    top: -5px;
+    width: 150px;
     height: auto;
 }
 
